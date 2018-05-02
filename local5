@@ -1,0 +1,347 @@
+04/30 03:19:42 label: FR->MB local attention version
+04/30 03:19:42 description:
+  second model of the local2global segmentation
+04/30 03:19:42 /home/getalp/zanonbom/seq2seq/translate/__main__.py ../NMT_experiments/MBOSHI/local2global/local/exp5/config.yaml --train -v
+04/30 03:19:43 commit hash d7914bbb0f1dc22438de0e15b82ebec43e0614ff
+04/30 03:19:43 tensorflow version: 1.2.0-rc1
+04/30 03:19:43 program arguments
+04/30 03:19:43   aggregation_method   'concat'
+04/30 03:19:43   align_encoder_id     0
+04/30 03:19:43   allow_growth         True
+04/30 03:19:43   att_window_size      5
+04/30 03:19:43   attention_type       'local'
+04/30 03:19:43   attn_filter_length   0
+04/30 03:19:43   attn_filters         0
+04/30 03:19:43   attn_prev_word       False
+04/30 03:19:43   attn_size            1000
+04/30 03:19:43   attn_temperature     1
+04/30 03:19:43   attn_window_size     0
+04/30 03:19:43   average              False
+04/30 03:19:43   baseline_activation  None
+04/30 03:19:43   baseline_learning_rate 0.001
+04/30 03:19:43   baseline_optimizer   'adam'
+04/30 03:19:43   baseline_steps       0
+04/30 03:19:43   batch_mode           'standard'
+04/30 03:19:43   batch_size           32
+04/30 03:19:43   beam_size            1
+04/30 03:19:43   bidir                True
+04/30 03:19:43   bidir_projection     False
+04/30 03:19:43   binary               False
+04/30 03:19:43   cell_size            64
+04/30 03:19:43   cell_type            'LSTM'
+04/30 03:19:43   character_level      False
+04/30 03:19:43   checkpoints          []
+04/30 03:19:43   conditional_rnn      False
+04/30 03:19:43   config               '../NMT_experiments/MBOSHI/local2global/local/exp5/config.yaml'
+04/30 03:19:43   convolutions         None
+04/30 03:19:43   data_dir             '../NMT_experiments/MBOSHI/local2global/files/'
+04/30 03:19:43   debug                False
+04/30 03:19:43   decay_after_n_epoch  0
+04/30 03:19:43   decay_every_n_epoch  None
+04/30 03:19:43   decay_if_no_progress None
+04/30 03:19:43   decoders             [{'name': 'mb'}]
+04/30 03:19:43   description          'second model of the local2global segmentation'
+04/30 03:19:43   dev_prefix           ['dev', 'train']
+04/30 03:19:43   embedding_dropout    0.0
+04/30 03:19:43   embedding_initializer None
+04/30 03:19:43   embedding_size       64
+04/30 03:19:43   embedding_weight_scale None
+04/30 03:19:43   encoders             [{'name': 'fr'}]
+04/30 03:19:43   ensemble             False
+04/30 03:19:43   eval_burn_in         0
+04/30 03:19:43   feed_previous        0.0
+04/30 03:19:43   final_state          'last'
+04/30 03:19:43   freeze_variables     []
+04/30 03:19:43   generate_first       True
+04/30 03:19:43   gpu_id               0
+04/30 03:19:43   highway_layers       0
+04/30 03:19:43   initial_state_dropout 0
+04/30 03:19:43   initializer          None
+04/30 03:19:43   input_layer_dropout  0.0
+04/30 03:19:43   input_layers         None
+04/30 03:19:43   keep_best            4
+04/30 03:19:43   keep_every_n_hours   0
+04/30 03:19:43   label                'FR->MB local attention version'
+04/30 03:19:43   layer_norm           False
+04/30 03:19:43   layers               1
+04/30 03:19:43   learning_rate        0.001
+04/30 03:19:43   learning_rate_decay_factor 1.0
+04/30 03:19:43   len_normalization    1.0
+04/30 03:19:43   log_file             'local_log.txt'
+04/30 03:19:43   loss_function        'xent'
+04/30 03:19:43   max_dev_size         0
+04/30 03:19:43   max_epochs           0
+04/30 03:19:43   max_gradient_norm    5.0
+04/30 03:19:43   max_len              84
+04/30 03:19:43   max_steps            250000
+04/30 03:19:43   max_test_size        0
+04/30 03:19:43   max_to_keep          1
+04/30 03:19:43   max_train_size       0
+04/30 03:19:43   maxout_stride        None
+04/30 03:19:43   mem_fraction         1.0
+04/30 03:19:43   min_learning_rate    1e-06
+04/30 03:19:43   model_dir            '../NMT_experiments/MBOSHI/local2global/local/exp5/model/'
+04/30 03:19:43   moving_average       None
+04/30 03:19:43   no_gpu               False
+04/30 03:19:43   optimizer            'adam'
+04/30 03:19:43   orthogonal_init      False
+04/30 03:19:43   output               None
+04/30 03:19:43   output_dropout       0.0
+04/30 03:19:43   parallel_iterations  16
+04/30 03:19:43   pervasive_dropout    False
+04/30 03:19:43   pooling_avg          True
+04/30 03:19:43   post_process_script  None
+04/30 03:19:43   pred_deep_layer      False
+04/30 03:19:43   pred_edits           False
+04/30 03:19:43   pred_embed_proj      False
+04/30 03:19:43   pred_maxout_layer    True
+04/30 03:19:43   purge                False
+04/30 03:19:43   raw_output           False
+04/30 03:19:43   read_ahead           10
+04/30 03:19:43   reconstruction_attn_weight 0.05
+04/30 03:19:43   reconstruction_decoders False
+04/30 03:19:43   reconstruction_weight 1.0
+04/30 03:19:43   reinforce_after_n_epoch None
+04/30 03:19:43   remove_unk           False
+04/30 03:19:43   reverse              False
+04/30 03:19:43   reverse_input        False
+04/30 03:19:43   reward_function      'sentence_bleu'
+04/30 03:19:43   rnn_feed_attn        True
+04/30 03:19:43   rnn_input_dropout    0
+04/30 03:19:43   rnn_output_dropout   0.0
+04/30 03:19:43   rnn_state_dropout    0.0
+04/30 03:19:43   save                 False
+04/30 03:19:43   score_function       'corpus_bleu'
+04/30 03:19:43   score_functions      ['bleu', 'loss']
+04/30 03:19:43   script_dir           'scripts'
+04/30 03:19:43   sgd_after_n_epoch    None
+04/30 03:19:43   sgd_learning_rate    1.0
+04/30 03:19:43   shuffle              True
+04/30 03:19:43   softmax_temperature  1.0
+04/30 03:19:43   steps_per_checkpoint 10000
+04/30 03:19:43   steps_per_eval       10000
+04/30 03:19:43   swap_memory          True
+04/30 03:19:43   tie_embeddings       False
+04/30 03:19:43   time_pooling         None
+04/30 03:19:43   train                True
+04/30 03:19:43   train_initial_states True
+04/30 03:19:43   train_prefix         'train'
+04/30 03:19:43   truncate_lines       True
+04/30 03:19:43   update_first         False
+04/30 03:19:43   use_baseline         False
+04/30 03:19:43   use_dropout          False
+04/30 03:19:43   use_lstm             True
+04/30 03:19:43   use_lstm_full_state  False
+04/30 03:19:43   use_previous_word    True
+04/30 03:19:43   verbose              True
+04/30 03:19:43   vocab_prefix         'vocab'
+04/30 03:19:43   weight_scale         0.1
+04/30 03:19:43   word_dropout         0.0
+04/30 03:19:43 python random seed: 3483561857976690963
+04/30 03:19:43 tf random seed:     6157053433191377508
+04/30 03:19:43 creating model
+04/30 03:19:43 using device: /gpu:0
+04/30 03:19:43 copying vocab to ../NMT_experiments/MBOSHI/local2global/local/exp5/model/data/vocab.fr
+04/30 03:19:43 copying vocab to ../NMT_experiments/MBOSHI/local2global/local/exp5/model/data/vocab.mb
+04/30 03:19:43 reading vocabularies
+04/30 03:19:43 creating model
+04/30 03:19:49 model parameters (25)
+04/30 03:19:49   baseline_step:0 ()
+04/30 03:19:49   decoder_mb/attention_fr/U_a/kernel:0 (128, 1000)
+04/30 03:19:49   decoder_mb/attention_fr/W_a/bias:0 (1000,)
+04/30 03:19:49   decoder_mb/attention_fr/W_a/kernel:0 (64, 1000)
+04/30 03:19:49   decoder_mb/attention_fr/Wp:0 (64, 64)
+04/30 03:19:49   decoder_mb/attention_fr/v_a:0 (1000,)
+04/30 03:19:49   decoder_mb/attention_fr/vp:0 (64, 1)
+04/30 03:19:49   decoder_mb/basic_lstm_cell/bias:0 (256,)
+04/30 03:19:49   decoder_mb/basic_lstm_cell/kernel:0 (256, 256)
+04/30 03:19:49   decoder_mb/fr/initial_state_projection/bias:0 (128,)
+04/30 03:19:49   decoder_mb/fr/initial_state_projection/kernel:0 (64, 128)
+04/30 03:19:49   decoder_mb/maxout/bias:0 (64,)
+04/30 03:19:49   decoder_mb/maxout/kernel:0 (256, 64)
+04/30 03:19:49   decoder_mb/softmax1/bias:0 (39,)
+04/30 03:19:49   decoder_mb/softmax1/kernel:0 (32, 39)
+04/30 03:19:49   embedding_fr:0 (4923, 64)
+04/30 03:19:49   embedding_mb:0 (39, 64)
+04/30 03:19:49   encoder_fr/initial_state_bw:0 (128,)
+04/30 03:19:49   encoder_fr/initial_state_fw:0 (128,)
+04/30 03:19:49   encoder_fr/stack_bidirectional_rnn/cell_0/bidirectional_rnn/bw/basic_lstm_cell/bias:0 (256,)
+04/30 03:19:49   encoder_fr/stack_bidirectional_rnn/cell_0/bidirectional_rnn/bw/basic_lstm_cell/kernel:0 (128, 256)
+04/30 03:19:49   encoder_fr/stack_bidirectional_rnn/cell_0/bidirectional_rnn/fw/basic_lstm_cell/bias:0 (256,)
+04/30 03:19:49   encoder_fr/stack_bidirectional_rnn/cell_0/bidirectional_rnn/fw/basic_lstm_cell/kernel:0 (128, 256)
+04/30 03:19:49   global_step:0 ()
+04/30 03:19:49   learning_rate:0 ()
+04/30 03:19:49 number of parameters: 0.67M
+04/30 03:19:53 global step: 0
+04/30 03:19:53 baseline step: 0
+04/30 03:19:53 reading training data
+04/30 03:19:53 total line count: 4616
+04/30 03:19:53 files: ../NMT_experiments/MBOSHI/local2global/files/train.fr ../NMT_experiments/MBOSHI/local2global/files/train.mb
+04/30 03:19:53 lines reads: 4616
+04/30 03:19:53 reading development data
+04/30 03:19:53 files: ../NMT_experiments/MBOSHI/local2global/files/dev.fr ../NMT_experiments/MBOSHI/local2global/files/dev.mb
+04/30 03:19:53 lines reads: 514
+04/30 03:19:54 files: ../NMT_experiments/MBOSHI/local2global/files/train.fr ../NMT_experiments/MBOSHI/local2global/files/train.mb
+04/30 03:19:54 lines reads: 4616
+04/30 03:19:54 starting training
+04/30 03:48:29 step 10000 epoch 70 learning rate 0.001 step-time 0.170 loss 30.090
+04/30 03:48:29 starting evaluation
+04/30 03:48:35 dev bleu=16.72 loss=132.47 penalty=1.000 ratio=1.021
+04/30 03:49:26 train bleu=56.66 loss=13.11 penalty=1.000 ratio=1.004
+04/30 03:49:26 saving model to ../NMT_experiments/MBOSHI/local2global/local/exp5/model/checkpoints
+04/30 03:49:27 finished saving model
+04/30 03:49:27 new best model
+04/30 04:17:52 step 20000 epoch 139 learning rate 0.001 step-time 0.169 loss 9.409
+04/30 04:17:52 starting evaluation
+04/30 04:17:57 dev bleu=17.17 loss=197.71 penalty=1.000 ratio=1.053
+04/30 04:18:49 train bleu=69.50 loss=6.42 penalty=1.000 ratio=1.031
+04/30 04:18:49 saving model to ../NMT_experiments/MBOSHI/local2global/local/exp5/model/checkpoints
+04/30 04:18:49 finished saving model
+04/30 04:18:49 new best model
+04/30 04:47:14 step 30000 epoch 208 learning rate 0.001 step-time 0.169 loss 4.889
+04/30 04:47:15 starting evaluation
+04/30 04:47:20 dev bleu=17.98 loss=232.86 penalty=0.999 ratio=0.999
+04/30 04:48:08 train bleu=79.69 loss=3.34 penalty=0.986 ratio=0.986
+04/30 04:48:08 saving model to ../NMT_experiments/MBOSHI/local2global/local/exp5/model/checkpoints
+04/30 04:48:09 finished saving model
+04/30 04:48:09 new best model
+04/30 05:16:33 step 40000 epoch 278 learning rate 0.001 step-time 0.169 loss 3.164
+04/30 05:16:33 starting evaluation
+04/30 05:16:39 dev bleu=17.87 loss=250.96 penalty=1.000 ratio=1.009
+04/30 05:17:29 train bleu=83.65 loss=2.49 penalty=0.993 ratio=0.993
+04/30 05:17:29 saving model to ../NMT_experiments/MBOSHI/local2global/local/exp5/model/checkpoints
+04/30 05:17:29 finished saving model
+04/30 05:45:57 step 50000 epoch 347 learning rate 0.001 step-time 0.169 loss 2.343
+04/30 05:45:57 starting evaluation
+04/30 05:46:03 dev bleu=17.73 loss=259.50 penalty=1.000 ratio=1.016
+04/30 05:46:52 train bleu=87.50 loss=1.71 penalty=1.000 ratio=1.000
+04/30 05:46:52 saving model to ../NMT_experiments/MBOSHI/local2global/local/exp5/model/checkpoints
+04/30 05:46:53 finished saving model
+04/30 06:15:21 step 60000 epoch 416 learning rate 0.001 step-time 0.169 loss 1.856
+04/30 06:15:21 starting evaluation
+04/30 06:15:26 dev bleu=18.02 loss=269.22 penalty=0.995 ratio=0.995
+04/30 06:16:15 train bleu=88.92 loss=1.37 penalty=0.994 ratio=0.994
+04/30 06:16:15 saving model to ../NMT_experiments/MBOSHI/local2global/local/exp5/model/checkpoints
+04/30 06:16:15 finished saving model
+04/30 06:16:15 new best model
+04/30 06:44:42 step 70000 epoch 486 learning rate 0.001 step-time 0.169 loss 1.560
+04/30 06:44:42 starting evaluation
+04/30 06:44:48 dev bleu=17.96 loss=273.86 penalty=0.973 ratio=0.973
+04/30 06:45:36 train bleu=89.52 loss=1.31 penalty=0.989 ratio=0.989
+04/30 06:45:36 saving model to ../NMT_experiments/MBOSHI/local2global/local/exp5/model/checkpoints
+04/30 06:45:37 finished saving model
+04/30 07:14:03 step 80000 epoch 555 learning rate 0.001 step-time 0.169 loss 1.365
+04/30 07:14:03 starting evaluation
+04/30 07:14:09 dev bleu=17.77 loss=278.35 penalty=1.000 ratio=1.020
+04/30 07:14:57 train bleu=92.18 loss=1.05 penalty=1.000 ratio=1.000
+04/30 07:14:57 saving model to ../NMT_experiments/MBOSHI/local2global/local/exp5/model/checkpoints
+04/30 07:14:58 finished saving model
+04/30 07:43:19 step 90000 epoch 624 learning rate 0.001 step-time 0.169 loss 1.227
+04/30 07:43:20 starting evaluation
+04/30 07:43:25 dev bleu=17.82 loss=277.06 penalty=1.000 ratio=1.012
+04/30 07:44:14 train bleu=92.02 loss=0.94 penalty=0.997 ratio=0.997
+04/30 07:44:14 saving model to ../NMT_experiments/MBOSHI/local2global/local/exp5/model/checkpoints
+04/30 07:44:15 finished saving model
+04/30 08:12:39 step 100000 epoch 694 learning rate 0.001 step-time 0.169 loss 1.126
+04/30 08:12:39 starting evaluation
+04/30 08:12:45 dev bleu=18.31 loss=280.34 penalty=1.000 ratio=1.014
+04/30 08:13:34 train bleu=92.40 loss=0.86 penalty=1.000 ratio=1.002
+04/30 08:13:34 saving model to ../NMT_experiments/MBOSHI/local2global/local/exp5/model/checkpoints
+04/30 08:13:35 finished saving model
+04/30 08:13:35 new best model
+04/30 08:42:11 step 110000 epoch 763 learning rate 0.001 step-time 0.170 loss 1.034
+04/30 08:42:11 starting evaluation
+04/30 08:42:17 dev bleu=18.42 loss=281.79 penalty=0.991 ratio=0.991
+04/30 08:43:06 train bleu=92.50 loss=0.83 penalty=0.995 ratio=0.995
+04/30 08:43:06 saving model to ../NMT_experiments/MBOSHI/local2global/local/exp5/model/checkpoints
+04/30 08:43:06 finished saving model
+04/30 08:43:06 new best model
+04/30 09:11:35 step 120000 epoch 832 learning rate 0.001 step-time 0.169 loss 0.976
+04/30 09:11:35 starting evaluation
+04/30 09:11:41 dev bleu=18.11 loss=285.46 penalty=0.989 ratio=0.989
+04/30 09:12:29 train bleu=93.56 loss=0.74 penalty=0.998 ratio=0.998
+04/30 09:12:29 saving model to ../NMT_experiments/MBOSHI/local2global/local/exp5/model/checkpoints
+04/30 09:12:30 finished saving model
+04/30 09:40:57 step 130000 epoch 902 learning rate 0.001 step-time 0.169 loss 0.915
+04/30 09:40:57 starting evaluation
+04/30 09:41:02 dev bleu=18.45 loss=284.96 penalty=1.000 ratio=1.013
+04/30 09:41:51 train bleu=94.10 loss=0.72 penalty=1.000 ratio=1.000
+04/30 09:41:51 saving model to ../NMT_experiments/MBOSHI/local2global/local/exp5/model/checkpoints
+04/30 09:41:52 finished saving model
+04/30 09:41:52 new best model
+04/30 10:10:19 step 140000 epoch 971 learning rate 0.001 step-time 0.169 loss 0.866
+04/30 10:10:19 starting evaluation
+04/30 10:10:25 dev bleu=18.45 loss=284.72 penalty=0.989 ratio=0.989
+04/30 10:11:13 train bleu=93.82 loss=0.69 penalty=1.000 ratio=1.000
+04/30 10:11:13 saving model to ../NMT_experiments/MBOSHI/local2global/local/exp5/model/checkpoints
+04/30 10:11:13 finished saving model
+04/30 10:39:33 step 150000 epoch 1040 learning rate 0.001 step-time 0.168 loss nan
+04/30 10:39:33 starting evaluation
+04/30 10:39:41 dev bleu=0.00 loss=nan penalty=1.000 ratio=3.431
+04/30 10:40:49 train bleu=0.00 loss=nan penalty=1.000 ratio=3.365
+04/30 10:40:49 saving model to ../NMT_experiments/MBOSHI/local2global/local/exp5/model/checkpoints
+04/30 10:40:50 finished saving model
+04/30 11:09:18 step 160000 epoch 1110 learning rate 0.001 step-time 0.169 loss nan
+04/30 11:09:18 starting evaluation
+04/30 11:09:26 dev bleu=0.00 loss=nan penalty=1.000 ratio=3.431
+04/30 11:10:35 train bleu=0.00 loss=nan penalty=1.000 ratio=3.365
+04/30 11:10:35 saving model to ../NMT_experiments/MBOSHI/local2global/local/exp5/model/checkpoints
+04/30 11:10:36 finished saving model
+04/30 11:39:01 step 170000 epoch 1179 learning rate 0.001 step-time 0.169 loss nan
+04/30 11:39:01 starting evaluation
+04/30 11:39:09 dev bleu=0.00 loss=nan penalty=1.000 ratio=3.431
+04/30 11:40:18 train bleu=0.00 loss=nan penalty=1.000 ratio=3.365
+04/30 11:40:18 saving model to ../NMT_experiments/MBOSHI/local2global/local/exp5/model/checkpoints
+04/30 11:40:19 finished saving model
+04/30 12:08:35 step 180000 epoch 1248 learning rate 0.001 step-time 0.168 loss nan
+04/30 12:08:35 starting evaluation
+04/30 12:08:44 dev bleu=0.00 loss=nan penalty=1.000 ratio=3.431
+04/30 12:09:52 train bleu=0.00 loss=nan penalty=1.000 ratio=3.365
+04/30 12:09:53 saving model to ../NMT_experiments/MBOSHI/local2global/local/exp5/model/checkpoints
+04/30 12:09:53 finished saving model
+04/30 12:38:26 step 190000 epoch 1318 learning rate 0.001 step-time 0.170 loss nan
+04/30 12:38:26 starting evaluation
+04/30 12:38:35 dev bleu=0.00 loss=nan penalty=1.000 ratio=3.431
+04/30 12:39:43 train bleu=0.00 loss=nan penalty=1.000 ratio=3.365
+04/30 12:39:43 saving model to ../NMT_experiments/MBOSHI/local2global/local/exp5/model/checkpoints
+04/30 12:39:44 finished saving model
+04/30 13:08:03 step 200000 epoch 1387 learning rate 0.001 step-time 0.168 loss nan
+04/30 13:08:04 starting evaluation
+04/30 13:08:12 dev bleu=0.00 loss=nan penalty=1.000 ratio=3.431
+04/30 13:09:20 train bleu=0.00 loss=nan penalty=1.000 ratio=3.365
+04/30 13:09:20 saving model to ../NMT_experiments/MBOSHI/local2global/local/exp5/model/checkpoints
+04/30 13:09:21 finished saving model
+04/30 13:37:39 step 210000 epoch 1456 learning rate 0.001 step-time 0.168 loss nan
+04/30 13:37:40 starting evaluation
+04/30 13:37:48 dev bleu=0.00 loss=nan penalty=1.000 ratio=3.431
+04/30 13:38:56 train bleu=0.00 loss=nan penalty=1.000 ratio=3.365
+04/30 13:38:56 saving model to ../NMT_experiments/MBOSHI/local2global/local/exp5/model/checkpoints
+04/30 13:38:57 finished saving model
+04/30 14:07:16 step 220000 epoch 1526 learning rate 0.001 step-time 0.168 loss nan
+04/30 14:07:16 starting evaluation
+04/30 14:07:24 dev bleu=0.00 loss=nan penalty=1.000 ratio=3.431
+04/30 14:08:33 train bleu=0.00 loss=nan penalty=1.000 ratio=3.365
+04/30 14:08:33 saving model to ../NMT_experiments/MBOSHI/local2global/local/exp5/model/checkpoints
+04/30 14:08:34 finished saving model
+04/30 14:37:05 step 230000 epoch 1595 learning rate 0.001 step-time 0.169 loss nan
+04/30 14:37:05 starting evaluation
+04/30 14:37:13 dev bleu=0.00 loss=nan penalty=1.000 ratio=3.431
+04/30 14:38:22 train bleu=0.00 loss=nan penalty=1.000 ratio=3.365
+04/30 14:38:22 saving model to ../NMT_experiments/MBOSHI/local2global/local/exp5/model/checkpoints
+04/30 14:38:23 finished saving model
+04/30 15:06:49 step 240000 epoch 1664 learning rate 0.001 step-time 0.169 loss nan
+04/30 15:06:49 starting evaluation
+04/30 15:06:58 dev bleu=0.00 loss=nan penalty=1.000 ratio=3.431
+04/30 15:08:07 train bleu=0.00 loss=nan penalty=1.000 ratio=3.365
+04/30 15:08:07 saving model to ../NMT_experiments/MBOSHI/local2global/local/exp5/model/checkpoints
+04/30 15:08:07 finished saving model
+04/30 15:36:40 step 250000 epoch 1734 learning rate 0.001 step-time 0.170 loss nan
+04/30 15:36:40 starting evaluation
+04/30 15:36:48 dev bleu=0.00 loss=nan penalty=1.000 ratio=3.431
+04/30 15:37:58 train bleu=0.00 loss=nan penalty=1.000 ratio=3.365
+04/30 15:37:58 saving model to ../NMT_experiments/MBOSHI/local2global/local/exp5/model/checkpoints
+04/30 15:37:59 finished saving model
+04/30 15:37:59 finished training
+04/30 15:37:59 exiting...
+04/30 15:37:59 saving model to ../NMT_experiments/MBOSHI/local2global/local/exp5/model/checkpoints
+04/30 15:37:59 finished saving model
