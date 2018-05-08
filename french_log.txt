@@ -1,0 +1,474 @@
+05/04 22:19:05 label: French english 
+05/04 22:19:05 description:
+  first try
+05/04 22:19:05 /home/getalp/zanonbom/seq2seq/translate/__main__.py ../NMT_experiments/ENGLISH/exp1/config.yaml --train -v
+05/04 22:19:05 commit hash d7914bbb0f1dc22438de0e15b82ebec43e0614ff
+05/04 22:19:05 tensorflow version: 1.2.0-rc1
+05/04 22:19:05 program arguments
+05/04 22:19:05   aggregation_method   'concat'
+05/04 22:19:05   align_encoder_id     0
+05/04 22:19:05   allow_growth         True
+05/04 22:19:05   attention_type       'global'
+05/04 22:19:05   attn_filter_length   0
+05/04 22:19:05   attn_filters         0
+05/04 22:19:05   attn_prev_word       False
+05/04 22:19:05   attn_size            128
+05/04 22:19:05   attn_temperature     1
+05/04 22:19:05   attn_window_size     0
+05/04 22:19:05   average              False
+05/04 22:19:05   baseline_activation  None
+05/04 22:19:05   baseline_learning_rate 0.001
+05/04 22:19:05   baseline_optimizer   'adam'
+05/04 22:19:05   baseline_steps       0
+05/04 22:19:05   batch_mode           'standard'
+05/04 22:19:05   batch_size           64
+05/04 22:19:05   beam_size            1
+05/04 22:19:05   bidir                True
+05/04 22:19:05   bidir_projection     False
+05/04 22:19:05   binary               False
+05/04 22:19:05   cell_size            128
+05/04 22:19:05   cell_type            'LSTM'
+05/04 22:19:05   character_level      False
+05/04 22:19:05   checkpoints          []
+05/04 22:19:05   conditional_rnn      False
+05/04 22:19:05   config               '../NMT_experiments/ENGLISH/exp1/config.yaml'
+05/04 22:19:05   convolutions         None
+05/04 22:19:05   data_dir             '../NMT_experiments/ENGLISH/files/'
+05/04 22:19:05   debug                False
+05/04 22:19:05   decay_after_n_epoch  0
+05/04 22:19:05   decay_every_n_epoch  None
+05/04 22:19:05   decay_if_no_progress None
+05/04 22:19:05   decoders             [{'name': 'en'}]
+05/04 22:19:05   description          'first try'
+05/04 22:19:05   dev_prefix           'dev'
+05/04 22:19:05   embedding_dropout    0.0
+05/04 22:19:05   embedding_initializer None
+05/04 22:19:05   embedding_size       128
+05/04 22:19:05   embedding_weight_scale None
+05/04 22:19:05   encoders             [{'name': 'fr'}]
+05/04 22:19:05   ensemble             False
+05/04 22:19:05   eval_burn_in         0
+05/04 22:19:05   feed_previous        0.0
+05/04 22:19:05   final_state          'last'
+05/04 22:19:05   freeze_variables     []
+05/04 22:19:05   generate_first       True
+05/04 22:19:05   gpu_id               0
+05/04 22:19:05   highway_layers       0
+05/04 22:19:05   initial_state_dropout 0.5
+05/04 22:19:05   initializer          None
+05/04 22:19:05   input_layer_dropout  0.0
+05/04 22:19:05   input_layers         None
+05/04 22:19:05   keep_best            4
+05/04 22:19:05   keep_every_n_hours   0
+05/04 22:19:05   label                'French english '
+05/04 22:19:05   layer_norm           False
+05/04 22:19:05   layers               1
+05/04 22:19:05   learning_rate        0.001
+05/04 22:19:05   learning_rate_decay_factor 1.0
+05/04 22:19:05   len_normalization    1.0
+05/04 22:19:05   log_file             'french_log.txt'
+05/04 22:19:05   loss_function        'xent'
+05/04 22:19:05   max_dev_size         0
+05/04 22:19:05   max_epochs           0
+05/04 22:19:05   max_gradient_norm    5.0
+05/04 22:19:05   max_len              100
+05/04 22:19:05   max_steps            550000
+05/04 22:19:05   max_test_size        0
+05/04 22:19:05   max_to_keep          1
+05/04 22:19:05   max_train_size       0
+05/04 22:19:05   maxout_stride        None
+05/04 22:19:05   mem_fraction         1.0
+05/04 22:19:05   min_learning_rate    1e-06
+05/04 22:19:05   model_dir            '../NMT_experiments/ENGLISH/exp1/model/'
+05/04 22:19:05   moving_average       None
+05/04 22:19:05   no_gpu               False
+05/04 22:19:05   optimizer            'adam'
+05/04 22:19:05   orthogonal_init      False
+05/04 22:19:05   output               None
+05/04 22:19:05   output_dropout       0.0
+05/04 22:19:05   parallel_iterations  16
+05/04 22:19:05   pervasive_dropout    False
+05/04 22:19:05   pooling_avg          True
+05/04 22:19:05   post_process_script  None
+05/04 22:19:05   pred_deep_layer      False
+05/04 22:19:05   pred_edits           False
+05/04 22:19:05   pred_embed_proj      False
+05/04 22:19:05   pred_maxout_layer    True
+05/04 22:19:05   purge                False
+05/04 22:19:05   raw_output           False
+05/04 22:19:05   read_ahead           10
+05/04 22:19:05   reconstruction_attn_weight 0.05
+05/04 22:19:05   reconstruction_decoders False
+05/04 22:19:05   reconstruction_weight 1.0
+05/04 22:19:05   reinforce_after_n_epoch None
+05/04 22:19:05   remove_unk           False
+05/04 22:19:05   reverse              False
+05/04 22:19:05   reverse_input        False
+05/04 22:19:05   reward_function      'sentence_bleu'
+05/04 22:19:05   rnn_feed_attn        True
+05/04 22:19:05   rnn_input_dropout    0.5
+05/04 22:19:05   rnn_output_dropout   0.0
+05/04 22:19:05   rnn_state_dropout    0.0
+05/04 22:19:05   save                 False
+05/04 22:19:05   score_function       'corpus_bleu'
+05/04 22:19:05   score_functions      ['bleu', 'loss']
+05/04 22:19:05   script_dir           'scripts'
+05/04 22:19:05   sgd_after_n_epoch    None
+05/04 22:19:05   sgd_learning_rate    1.0
+05/04 22:19:05   shuffle              True
+05/04 22:19:05   softmax_temperature  1.0
+05/04 22:19:05   steps_per_checkpoint 10000
+05/04 22:19:05   steps_per_eval       10000
+05/04 22:19:05   swap_memory          True
+05/04 22:19:05   tie_embeddings       False
+05/04 22:19:05   time_pooling         None
+05/04 22:19:05   train                True
+05/04 22:19:05   train_initial_states True
+05/04 22:19:05   train_prefix         'train'
+05/04 22:19:05   truncate_lines       True
+05/04 22:19:05   update_first         False
+05/04 22:19:05   use_baseline         False
+05/04 22:19:05   use_dropout          True
+05/04 22:19:05   use_lstm             True
+05/04 22:19:05   use_lstm_full_state  False
+05/04 22:19:05   use_previous_word    True
+05/04 22:19:05   verbose              True
+05/04 22:19:05   vocab_prefix         'vocab'
+05/04 22:19:05   weight_scale         0.1
+05/04 22:19:05   word_dropout         0.0
+05/04 22:19:05 python random seed: 3760084275211664402
+05/04 22:19:05 tf random seed:     6077762676977143558
+05/04 22:19:05 creating model
+05/04 22:19:05 using device: /gpu:0
+05/04 22:19:07 copying vocab to ../NMT_experiments/ENGLISH/exp1/model/data/vocab.fr
+05/04 22:19:07 copying vocab to ../NMT_experiments/ENGLISH/exp1/model/data/vocab.en
+05/04 22:19:08 reading vocabularies
+05/04 22:19:08 creating model
+05/04 22:19:14 model parameters (27)
+05/04 22:19:14   baseline_step:0 ()
+05/04 22:19:14   decoder_en/attention_fr/U_a/kernel:0 (256, 128)
+05/04 22:19:14   decoder_en/attention_fr/W_a/bias:0 (128,)
+05/04 22:19:14   decoder_en/attention_fr/W_a/kernel:0 (128, 128)
+05/04 22:19:14   decoder_en/attention_fr/v_a:0 (128,)
+05/04 22:19:14   decoder_en/basic_lstm_cell/bias:0 (512,)
+05/04 22:19:14   decoder_en/basic_lstm_cell/kernel:0 (512, 512)
+05/04 22:19:14   decoder_en/fr/initial_state_projection/bias:0 (256,)
+05/04 22:19:14   decoder_en/fr/initial_state_projection/kernel:0 (128, 256)
+05/04 22:19:14   decoder_en/maxout/bias:0 (128,)
+05/04 22:19:14   decoder_en/maxout/kernel:0 (512, 128)
+05/04 22:19:14   decoder_en/softmax1/bias:0 (39,)
+05/04 22:19:14   decoder_en/softmax1/kernel:0 (64, 39)
+05/04 22:19:14   embedding_en:0 (39, 128)
+05/04 22:19:14   embedding_fr:0 (30000, 128)
+05/04 22:19:14   encoder_fr/initial_state_bw:0 (256,)
+05/04 22:19:14   encoder_fr/initial_state_fw:0 (256,)
+05/04 22:19:14   encoder_fr/stack_bidirectional_rnn/cell_0/bidirectional_rnn/bw/basic_lstm_cell/bias:0 (512,)
+05/04 22:19:14   encoder_fr/stack_bidirectional_rnn/cell_0/bidirectional_rnn/bw/basic_lstm_cell/kernel:0 (256, 512)
+05/04 22:19:14   encoder_fr/stack_bidirectional_rnn/cell_0/bidirectional_rnn/fw/basic_lstm_cell/bias:0 (512,)
+05/04 22:19:14   encoder_fr/stack_bidirectional_rnn/cell_0/bidirectional_rnn/fw/basic_lstm_cell/kernel:0 (256, 512)
+05/04 22:19:14   global_step:0 ()
+05/04 22:19:14   initial_state_keep_prob:0 ()
+05/04 22:19:14   initial_state_keep_prob_1:0 ()
+05/04 22:19:14   learning_rate:0 ()
+05/04 22:19:14   rnn_input_keep_prob:0 ()
+05/04 22:19:14   rnn_input_keep_prob_1:0 ()
+05/04 22:19:14 number of parameters: 4.52M
+05/04 22:19:18 global step: 0
+05/04 22:19:18 baseline step: 0
+05/04 22:19:18 reading training data
+05/04 22:19:18 total line count: 32834
+05/04 22:19:20 files: ../NMT_experiments/ENGLISH/files/train.fr ../NMT_experiments/ENGLISH/files/train.en
+05/04 22:19:20 lines reads: 32833
+05/04 22:19:20 reading development data
+05/04 22:19:20 files: ../NMT_experiments/ENGLISH/files/dev.fr ../NMT_experiments/ENGLISH/files/dev.en
+05/04 22:19:20 lines reads: 805
+05/04 22:19:20 starting training
+05/04 23:23:43 step 10000 epoch 20 learning rate 0.001 step-time 0.385 loss 92.842
+05/04 23:23:44 starting evaluation
+05/04 23:23:53 dev bleu=23.98 loss=74.17 penalty=1.000 ratio=1.000
+05/04 23:23:53 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/04 23:23:54 finished saving model
+05/04 23:23:54 new best model
+05/05 00:27:55 step 20000 epoch 39 learning rate 0.001 step-time 0.382 loss 73.190
+05/05 00:27:55 starting evaluation
+05/05 00:28:03 dev bleu=25.08 loss=71.97 penalty=0.949 ratio=0.950
+05/05 00:28:04 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/05 00:28:07 finished saving model
+05/05 00:28:08 new best model
+05/05 01:36:18 step 30000 epoch 59 learning rate 0.001 step-time 0.407 loss 67.132
+05/05 01:36:18 starting evaluation
+05/05 01:36:28 dev bleu=24.77 loss=72.73 penalty=0.916 ratio=0.919
+05/05 01:36:28 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/05 01:36:30 finished saving model
+05/05 02:43:27 step 40000 epoch 78 learning rate 0.001 step-time 0.399 loss 63.838
+05/05 02:43:27 starting evaluation
+05/05 02:43:37 dev bleu=26.80 loss=72.54 penalty=0.942 ratio=0.944
+05/05 02:43:37 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/05 02:43:38 finished saving model
+05/05 02:43:38 new best model
+05/05 03:50:31 step 50000 epoch 98 learning rate 0.001 step-time 0.399 loss 61.750
+05/05 03:50:31 starting evaluation
+05/05 03:50:41 dev bleu=26.94 loss=72.11 penalty=0.945 ratio=0.947
+05/05 03:50:41 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/05 03:50:42 finished saving model
+05/05 03:50:42 new best model
+05/05 04:57:44 step 60000 epoch 117 learning rate 0.001 step-time 0.400 loss 60.153
+05/05 04:57:44 starting evaluation
+05/05 04:57:54 dev bleu=26.34 loss=72.83 penalty=0.901 ratio=0.906
+05/05 04:57:54 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/05 04:57:55 finished saving model
+05/05 06:04:51 step 70000 epoch 137 learning rate 0.001 step-time 0.399 loss 59.042
+05/05 06:04:51 starting evaluation
+05/05 06:05:01 dev bleu=26.60 loss=72.32 penalty=0.911 ratio=0.914
+05/05 06:05:01 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/05 06:05:02 finished saving model
+05/05 07:12:10 step 80000 epoch 156 learning rate 0.001 step-time 0.400 loss 58.102
+05/05 07:12:10 starting evaluation
+05/05 07:12:20 dev bleu=27.97 loss=72.60 penalty=0.984 ratio=0.984
+05/05 07:12:20 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/05 07:12:21 finished saving model
+05/05 07:12:21 new best model
+05/05 08:19:15 step 90000 epoch 176 learning rate 0.001 step-time 0.399 loss 57.349
+05/05 08:19:15 starting evaluation
+05/05 08:19:25 dev bleu=27.27 loss=72.92 penalty=0.936 ratio=0.938
+05/05 08:19:25 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/05 08:19:26 finished saving model
+05/05 09:26:26 step 100000 epoch 195 learning rate 0.001 step-time 0.400 loss 56.783
+05/05 09:26:26 starting evaluation
+05/05 09:26:36 dev bleu=27.52 loss=72.36 penalty=0.929 ratio=0.932
+05/05 09:26:36 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/05 09:26:37 finished saving model
+05/05 10:33:25 step 110000 epoch 215 learning rate 0.001 step-time 0.398 loss 56.197
+05/05 10:33:25 starting evaluation
+05/05 10:33:35 dev bleu=27.65 loss=72.98 penalty=0.893 ratio=0.899
+05/05 10:33:35 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/05 10:33:42 finished saving model
+05/05 11:40:40 step 120000 epoch 234 learning rate 0.001 step-time 0.399 loss 55.737
+05/05 11:40:40 starting evaluation
+05/05 11:40:50 dev bleu=28.00 loss=72.27 penalty=0.903 ratio=0.907
+05/05 11:40:50 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/05 11:40:51 finished saving model
+05/05 11:40:51 new best model
+05/05 12:47:55 step 130000 epoch 254 learning rate 0.001 step-time 0.400 loss 55.348
+05/05 12:47:55 starting evaluation
+05/05 12:48:05 dev bleu=27.99 loss=71.96 penalty=0.905 ratio=0.909
+05/05 12:48:05 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/05 12:48:06 finished saving model
+05/05 13:54:56 step 140000 epoch 273 learning rate 0.001 step-time 0.399 loss 54.978
+05/05 13:54:56 starting evaluation
+05/05 13:55:06 dev bleu=27.71 loss=72.59 penalty=0.894 ratio=0.899
+05/05 13:55:06 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/05 13:55:07 finished saving model
+05/05 15:02:05 step 150000 epoch 293 learning rate 0.001 step-time 0.399 loss 54.642
+05/05 15:02:05 starting evaluation
+05/05 15:02:14 dev bleu=27.17 loss=72.56 penalty=0.898 ratio=0.903
+05/05 15:02:15 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/05 15:02:15 finished saving model
+05/05 16:08:58 step 160000 epoch 312 learning rate 0.001 step-time 0.398 loss 54.393
+05/05 16:08:58 starting evaluation
+05/05 16:09:08 dev bleu=27.93 loss=73.23 penalty=0.933 ratio=0.935
+05/05 16:09:08 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/05 16:09:14 finished saving model
+05/05 17:13:43 step 170000 epoch 332 learning rate 0.001 step-time 0.384 loss 54.108
+05/05 17:13:44 starting evaluation
+05/05 17:13:53 dev bleu=27.62 loss=72.99 penalty=0.907 ratio=0.911
+05/05 17:13:53 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/05 17:14:00 finished saving model
+05/05 18:18:02 step 180000 epoch 351 learning rate 0.001 step-time 0.382 loss 53.918
+05/05 18:18:02 starting evaluation
+05/05 18:18:11 dev bleu=28.69 loss=73.44 penalty=0.907 ratio=0.911
+05/05 18:18:11 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/05 18:18:12 finished saving model
+05/05 18:18:12 new best model
+05/05 19:22:27 step 190000 epoch 371 learning rate 0.001 step-time 0.383 loss 53.678
+05/05 19:22:27 starting evaluation
+05/05 19:22:36 dev bleu=28.48 loss=73.15 penalty=0.921 ratio=0.924
+05/05 19:22:36 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/05 19:22:43 finished saving model
+05/05 20:26:52 step 200000 epoch 390 learning rate 0.001 step-time 0.382 loss 53.479
+05/05 20:26:52 starting evaluation
+05/05 20:27:01 dev bleu=27.36 loss=74.03 penalty=0.900 ratio=0.904
+05/05 20:27:02 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/05 20:27:06 finished saving model
+05/05 21:31:07 step 210000 epoch 410 learning rate 0.001 step-time 0.382 loss 53.289
+05/05 21:31:08 starting evaluation
+05/05 21:31:17 dev bleu=28.37 loss=73.43 penalty=0.902 ratio=0.906
+05/05 21:31:17 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/05 21:31:23 finished saving model
+05/05 22:35:34 step 220000 epoch 429 learning rate 0.001 step-time 0.382 loss 53.133
+05/05 22:35:34 starting evaluation
+05/05 22:35:43 dev bleu=27.36 loss=73.19 penalty=0.896 ratio=0.901
+05/05 22:35:43 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/05 22:35:44 finished saving model
+05/05 23:40:03 step 230000 epoch 449 learning rate 0.001 step-time 0.384 loss 52.972
+05/05 23:40:03 starting evaluation
+05/05 23:40:12 dev bleu=27.63 loss=73.97 penalty=0.893 ratio=0.899
+05/05 23:40:12 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/05 23:40:19 finished saving model
+05/06 00:44:35 step 240000 epoch 468 learning rate 0.001 step-time 0.384 loss 52.800
+05/06 00:44:35 starting evaluation
+05/06 00:44:45 dev bleu=27.95 loss=73.21 penalty=0.925 ratio=0.928
+05/06 00:44:45 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/06 00:44:47 finished saving model
+05/06 01:49:17 step 250000 epoch 488 learning rate 0.001 step-time 0.385 loss 52.668
+05/06 01:49:17 starting evaluation
+05/06 01:49:26 dev bleu=27.52 loss=73.40 penalty=0.891 ratio=0.896
+05/06 01:49:26 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/06 01:49:33 finished saving model
+05/06 02:53:54 step 260000 epoch 507 learning rate 0.001 step-time 0.384 loss 52.523
+05/06 02:53:54 starting evaluation
+05/06 02:54:03 dev bleu=27.91 loss=73.55 penalty=0.910 ratio=0.914
+05/06 02:54:03 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/06 02:54:04 finished saving model
+05/06 03:58:23 step 270000 epoch 527 learning rate 0.001 step-time 0.384 loss 52.420
+05/06 03:58:23 starting evaluation
+05/06 03:58:32 dev bleu=27.68 loss=73.64 penalty=0.878 ratio=0.885
+05/06 03:58:32 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/06 03:58:33 finished saving model
+05/06 05:02:14 step 280000 epoch 546 learning rate 0.001 step-time 0.380 loss 52.301
+05/06 05:02:14 starting evaluation
+05/06 05:02:23 dev bleu=28.75 loss=73.24 penalty=0.935 ratio=0.937
+05/06 05:02:23 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/06 05:02:25 finished saving model
+05/06 05:02:25 new best model
+05/06 06:06:39 step 290000 epoch 566 learning rate 0.001 step-time 0.383 loss 52.181
+05/06 06:06:39 starting evaluation
+05/06 06:06:48 dev bleu=28.59 loss=73.20 penalty=0.933 ratio=0.935
+05/06 06:06:48 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/06 06:06:49 finished saving model
+05/06 07:10:59 step 300000 epoch 585 learning rate 0.001 step-time 0.383 loss 52.055
+05/06 07:10:59 starting evaluation
+05/06 07:11:08 dev bleu=28.37 loss=73.58 penalty=0.905 ratio=0.910
+05/06 07:11:08 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/06 07:11:09 finished saving model
+05/06 08:15:17 step 310000 epoch 605 learning rate 0.001 step-time 0.383 loss 51.949
+05/06 08:15:17 starting evaluation
+05/06 08:15:26 dev bleu=28.37 loss=73.93 penalty=0.930 ratio=0.932
+05/06 08:15:26 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/06 08:15:28 finished saving model
+05/06 09:19:34 step 320000 epoch 624 learning rate 0.001 step-time 0.383 loss 51.870
+05/06 09:19:34 starting evaluation
+05/06 09:19:43 dev bleu=27.62 loss=74.14 penalty=0.878 ratio=0.885
+05/06 09:19:43 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/06 09:19:45 finished saving model
+05/06 10:23:50 step 330000 epoch 644 learning rate 0.001 step-time 0.383 loss 51.787
+05/06 10:23:50 starting evaluation
+05/06 10:24:00 dev bleu=27.74 loss=73.45 penalty=0.954 ratio=0.955
+05/06 10:24:00 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/06 10:24:01 finished saving model
+05/06 11:28:08 step 340000 epoch 663 learning rate 0.001 step-time 0.383 loss 51.675
+05/06 11:28:09 starting evaluation
+05/06 11:28:18 dev bleu=27.04 loss=73.95 penalty=0.889 ratio=0.895
+05/06 11:28:18 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/06 11:28:19 finished saving model
+05/06 12:34:30 step 350000 epoch 683 learning rate 0.001 step-time 0.395 loss 51.610
+05/06 12:34:30 starting evaluation
+05/06 12:34:40 dev bleu=28.97 loss=73.13 penalty=0.916 ratio=0.919
+05/06 12:34:40 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/06 12:34:41 finished saving model
+05/06 12:34:41 new best model
+05/06 13:41:47 step 360000 epoch 702 learning rate 0.001 step-time 0.400 loss 51.514
+05/06 13:41:47 starting evaluation
+05/06 13:41:57 dev bleu=28.28 loss=73.50 penalty=0.914 ratio=0.917
+05/06 13:41:57 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/06 13:41:58 finished saving model
+05/06 14:48:56 step 370000 epoch 722 learning rate 0.001 step-time 0.400 loss 51.439
+05/06 14:48:57 starting evaluation
+05/06 14:49:06 dev bleu=27.46 loss=73.54 penalty=0.909 ratio=0.913
+05/06 14:49:06 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/06 14:49:07 finished saving model
+05/06 15:56:09 step 380000 epoch 741 learning rate 0.001 step-time 0.400 loss 51.351
+05/06 15:56:10 starting evaluation
+05/06 15:56:19 dev bleu=28.28 loss=74.34 penalty=0.902 ratio=0.907
+05/06 15:56:19 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/06 15:56:20 finished saving model
+05/06 17:03:27 step 390000 epoch 761 learning rate 0.001 step-time 0.401 loss 51.322
+05/06 17:03:27 starting evaluation
+05/06 17:03:37 dev bleu=27.49 loss=74.01 penalty=0.911 ratio=0.915
+05/06 17:03:37 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/06 17:03:38 finished saving model
+05/06 18:09:55 step 400000 epoch 780 learning rate 0.001 step-time 0.396 loss 51.215
+05/06 18:09:55 starting evaluation
+05/06 18:10:05 dev bleu=28.62 loss=73.68 penalty=0.932 ratio=0.934
+05/06 18:10:05 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/06 18:10:06 finished saving model
+05/06 19:17:01 step 410000 epoch 800 learning rate 0.001 step-time 0.399 loss 51.122
+05/06 19:17:01 starting evaluation
+05/06 19:17:10 dev bleu=27.58 loss=74.19 penalty=0.913 ratio=0.916
+05/06 19:17:11 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/06 19:17:16 finished saving model
+05/06 20:23:20 step 420000 epoch 819 learning rate 0.001 step-time 0.395 loss 51.112
+05/06 20:23:20 starting evaluation
+05/06 20:23:30 dev bleu=28.26 loss=74.19 penalty=0.942 ratio=0.943
+05/06 20:23:30 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/06 20:23:31 finished saving model
+05/06 21:30:33 step 430000 epoch 839 learning rate 0.001 step-time 0.400 loss 51.025
+05/06 21:30:33 starting evaluation
+05/06 21:30:43 dev bleu=26.54 loss=74.76 penalty=0.910 ratio=0.914
+05/06 21:30:43 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/06 21:30:43 finished saving model
+05/06 22:37:48 step 440000 epoch 858 learning rate 0.001 step-time 0.401 loss 50.971
+05/06 22:37:48 starting evaluation
+05/06 22:37:58 dev bleu=28.89 loss=73.73 penalty=0.925 ratio=0.927
+05/06 22:37:58 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/06 22:37:59 finished saving model
+05/06 23:45:07 step 450000 epoch 878 learning rate 0.001 step-time 0.400 loss 50.917
+05/06 23:45:07 starting evaluation
+05/06 23:45:17 dev bleu=28.63 loss=73.39 penalty=0.879 ratio=0.886
+05/06 23:45:17 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/06 23:45:18 finished saving model
+05/07 00:52:20 step 460000 epoch 897 learning rate 0.001 step-time 0.400 loss 50.854
+05/07 00:52:20 starting evaluation
+05/07 00:52:30 dev bleu=27.90 loss=73.25 penalty=0.928 ratio=0.930
+05/07 00:52:30 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/07 00:52:31 finished saving model
+05/07 01:59:30 step 470000 epoch 917 learning rate 0.001 step-time 0.400 loss 50.794
+05/07 01:59:30 starting evaluation
+05/07 01:59:40 dev bleu=30.05 loss=74.08 penalty=0.987 ratio=0.987
+05/07 01:59:40 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/07 01:59:41 finished saving model
+05/07 01:59:41 new best model
+05/07 03:06:35 step 480000 epoch 936 learning rate 0.001 step-time 0.399 loss 50.761
+05/07 03:06:35 starting evaluation
+05/07 03:06:45 dev bleu=28.22 loss=73.41 penalty=0.880 ratio=0.886
+05/07 03:06:45 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/07 03:06:46 finished saving model
+05/07 04:13:38 step 490000 epoch 956 learning rate 0.001 step-time 0.399 loss 50.716
+05/07 04:13:38 starting evaluation
+05/07 04:13:48 dev bleu=29.36 loss=73.50 penalty=0.957 ratio=0.958
+05/07 04:13:48 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/07 04:13:49 finished saving model
+05/07 05:20:53 step 500000 epoch 975 learning rate 0.001 step-time 0.400 loss 50.675
+05/07 05:20:53 starting evaluation
+05/07 05:21:03 dev bleu=27.98 loss=73.76 penalty=0.911 ratio=0.915
+05/07 05:21:03 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/07 05:21:04 finished saving model
+05/07 06:28:06 step 510000 epoch 995 learning rate 0.001 step-time 0.400 loss 50.670
+05/07 06:28:06 starting evaluation
+05/07 06:28:16 dev bleu=28.72 loss=73.92 penalty=0.917 ratio=0.920
+05/07 06:28:16 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/07 06:28:17 finished saving model
+05/07 07:35:23 step 520000 epoch 1014 learning rate 0.001 step-time 0.401 loss 50.595
+05/07 07:35:24 starting evaluation
+05/07 07:35:33 dev bleu=28.37 loss=74.48 penalty=0.916 ratio=0.920
+05/07 07:35:34 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/07 07:35:35 finished saving model
+05/07 08:42:45 step 530000 epoch 1034 learning rate 0.001 step-time 0.401 loss 50.557
+05/07 08:42:45 starting evaluation
+05/07 08:42:55 dev bleu=27.87 loss=73.45 penalty=0.924 ratio=0.927
+05/07 08:42:55 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/07 08:42:56 finished saving model
+05/07 09:49:56 step 540000 epoch 1053 learning rate 0.001 step-time 0.400 loss 50.487
+05/07 09:49:56 starting evaluation
+05/07 09:50:05 dev bleu=27.81 loss=74.17 penalty=0.892 ratio=0.897
+05/07 09:50:06 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/07 09:50:07 finished saving model
+05/07 10:57:10 step 550000 epoch 1073 learning rate 0.001 step-time 0.400 loss 50.488
+05/07 10:57:10 starting evaluation
+05/07 10:57:20 dev bleu=28.63 loss=73.30 penalty=0.894 ratio=0.899
+05/07 10:57:20 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/07 10:57:21 finished saving model
+05/07 10:57:21 finished training
+05/07 10:57:21 exiting...
+05/07 10:57:22 saving model to ../NMT_experiments/ENGLISH/exp1/model/checkpoints
+05/07 10:57:23 finished saving model
