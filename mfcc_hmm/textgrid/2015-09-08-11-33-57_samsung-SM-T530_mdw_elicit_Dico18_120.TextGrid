@@ -1,0 +1,148 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 2.58
+tiers? <exists>
+size = 4
+item[]:
+	item[1]:
+		class = "IntervalTier"
+		name = "true.phones"
+		xmin = 0
+		xmax = 2.58
+		intervals: size = 25
+		intervals [1]:
+			xmin = 0.01
+			xmax = 0.97
+			text = "__..A3__"
+		intervals [2]:
+			xmin = 0.97
+			xmax = 1.11
+			text = ".AT1"
+		intervals [3]:
+			xmin = 1.11
+			xmax = 1.21
+			text = "ATô0"
+		intervals [4]:
+			xmin = 1.21
+			xmax = 1.24
+			text = "Tôs0"
+		intervals [5]:
+			xmin = 1.24
+			xmax = 1.35
+			text = "ôsô0"
+		intervals [6]:
+			xmin = 1.35
+			xmax = 1.41
+			text = "sôb2"
+		intervals [7]:
+			xmin = 1.41
+			xmax = 1.45
+			text = "ôbô1"
+		intervals [8]:
+			xmin = 1.45
+			xmax = 1.51
+			text = "bôb2"
+		intervals [9]:
+			xmin = 1.51
+			xmax = 1.58
+			text = "ôbà1"
+		intervals [10]:
+			xmin = 1.58
+			xmax = 1.66
+			text = "bàw0"
+		intervals [11]:
+			xmin = 1.66
+			xmax = 1.77
+			text = "àwÂ0"
+		intervals [12]:
+			xmin = 1.77
+			xmax = 1.81
+			text = "wÂm0"
+		intervals [13]:
+			xmin = 1.81
+			xmax = 1.87
+			text = "ÂmI0"
+		intervals [14]:
+			xmin = 1.87
+			xmax = 1.93
+			text = "mIn0"
+		intervals [15]:
+			xmin = 1.93
+			xmax = 1.96
+			text = "InÂ0"
+		intervals [16]:
+			xmin = 1.96
+			xmax = 1.99
+			text = "nÂm2"
+		intervals [17]:
+			xmin = 1.99
+			xmax = 2.03
+			text = "Âmô1"
+		intervals [18]:
+			xmin = 2.03
+			xmax = 2.06
+			text = "môð0"
+		intervals [19]:
+			xmin = 2.06
+			xmax = 2.14
+			text = "ôðô0"
+		intervals [20]:
+			xmin = 2.14
+			xmax = 2.18
+			text = "ðôr0"
+		intervals [21]:
+			xmin = 2.18
+			xmax = 2.22
+			text = "ôro0"
+		intervals [22]:
+			xmin = 2.22
+			xmax = 2.3
+			text = "roB2"
+		intervals [23]:
+			xmin = 2.3
+			xmax = 2.37
+			text = "oBÛ1"
+		intervals [24]:
+			xmin = 2.37
+			xmax = 2.41
+			text = "BÛA0"
+		intervals [25]:
+			xmin = 2.41
+			xmax = 2.58
+			text = "ÛA.2"
+	item[2]:
+		class = "IntervalTier"
+		name = "true.words"
+		xmin = 0
+		xmax = 2.58
+		intervals: size = 6
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.97
+			text = "__SIL__"
+		intervals [2]:
+			xmin = 0.97
+			xmax = 1.41
+			text = "AtsÃ³sÃ³"
+		intervals [3]:
+			xmin = 1.41
+			xmax = 1.51
+			text = "bÃ³"
+		intervals [4]:
+			xmin = 1.51
+			xmax = 1.99
+			text = "bÃ¡awÃ¡mÃ¯nÃ¡"
+		intervals [5]:
+			xmin = 1.99
+			xmax = 2.3
+			text = "mÃ³ndzÃ³ro"
+		intervals [6]:
+			xmin = 2.3
+			xmax = 2.58
+			text = "bvÃºa"
+	item[3]:
+		class = "IntervalTier"
+		name = "pseudo.phones"
+		xmin = 0

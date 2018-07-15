@@ -1,0 +1,112 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 2.17
+tiers? <exists>
+size = 4
+item[]:
+	item[1]:
+		class = "IntervalTier"
+		name = "true.phones"
+		xmin = 0
+		xmax = 2.17
+		intervals: size = 17
+		intervals [1]:
+			xmin = 0.01
+			xmax = 0.62
+			text = "__..o3__"
+		intervals [2]:
+			xmin = 0.62
+			xmax = 0.75
+			text = ".os1"
+		intervals [3]:
+			xmin = 0.75
+			xmax = 0.89
+			text = "osê0"
+		intervals [4]:
+			xmin = 0.89
+			xmax = 0.95
+			text = "sêM0"
+		intervals [5]:
+			xmin = 0.95
+			xmax = 1.04
+			text = "êMÂ0"
+		intervals [6]:
+			xmin = 1.04
+			xmax = 1.1
+			text = "MÂm2"
+		intervals [7]:
+			xmin = 1.1
+			xmax = 1.17
+			text = "ÂmÛ1"
+		intervals [8]:
+			xmin = 1.17
+			xmax = 1.21
+			text = "mÛÂ2"
+		intervals [9]:
+			xmin = 1.21
+			xmax = 1.29
+			text = "ÛÂf1"
+		intervals [10]:
+			xmin = 1.29
+			xmax = 1.43
+			text = "ÂfÛ0"
+		intervals [11]:
+			xmin = 1.43
+			xmax = 1.48
+			text = "fÛm2"
+		intervals [12]:
+			xmin = 1.48
+			xmax = 1.57
+			text = "ÛmÎ1"
+		intervals [13]:
+			xmin = 1.57
+			xmax = 1.68
+			text = "mÎb0"
+		intervals [14]:
+			xmin = 1.68
+			xmax = 1.76
+			text = "ÎbA0"
+		intervals [15]:
+			xmin = 1.76
+			xmax = 1.86
+			text = "bAr0"
+		intervals [16]:
+			xmin = 1.86
+			xmax = 1.91
+			text = "Ari0"
+		intervals [17]:
+			xmin = 1.91
+			xmax = 2.17
+			text = "ri.2"
+	item[2]:
+		class = "IntervalTier"
+		name = "true.words"
+		xmin = 0
+		xmax = 2.17
+		intervals: size = 5
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.62
+			text = "__SIL__"
+		intervals [2]:
+			xmin = 0.62
+			xmax = 1.1
+			text = "OsÃ©mbÃ¡"
+		intervals [3]:
+			xmin = 1.1
+			xmax = 1.21
+			text = "mÃº"
+		intervals [4]:
+			xmin = 1.21
+			xmax = 1.48
+			text = "Ã¡fÃºu"
+		intervals [5]:
+			xmin = 1.48
+			xmax = 2.17
+			text = "m'"
+	item[3]:
+		class = "IntervalTier"
+		name = "pseudo.phones"
+		xmin = 0

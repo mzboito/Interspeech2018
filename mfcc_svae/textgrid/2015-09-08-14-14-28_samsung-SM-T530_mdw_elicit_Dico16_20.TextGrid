@@ -1,0 +1,236 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.93
+tiers? <exists>
+size = 4
+item[]:
+	item[1]:
+		class = "IntervalTier"
+		name = "true.phones"
+		xmin = 0
+		xmax = 1.93
+		intervals: size = 20
+		intervals [1]:
+			xmin = 0.01
+			xmax = 0.33
+			text = "__..o3__"
+		intervals [2]:
+			xmin = 0.33
+			xmax = 0.45
+			text = ".oj1"
+		intervals [3]:
+			xmin = 0.45
+			xmax = 0.51
+			text = "ojÛ0"
+		intervals [4]:
+			xmin = 0.51
+			xmax = 0.56
+			text = "jÛr0"
+		intervals [5]:
+			xmin = 0.56
+			xmax = 0.63
+			text = "Ûrj2"
+		intervals [6]:
+			xmin = 0.63
+			xmax = 0.7
+			text = "rjè1"
+		intervals [7]:
+			xmin = 0.7
+			xmax = 0.79
+			text = "jèb0"
+		intervals [8]:
+			xmin = 0.79
+			xmax = 0.84
+			text = "èbA0"
+		intervals [9]:
+			xmin = 0.84
+			xmax = 0.89
+			text = "bAN0"
+		intervals [10]:
+			xmin = 0.89
+			xmax = 0.98
+			text = "ANÎ0"
+		intervals [11]:
+			xmin = 0.98
+			xmax = 1.01
+			text = "NÎw2"
+		intervals [12]:
+			xmin = 1.01
+			xmax = 1.1
+			text = "ÎwA3"
+		intervals [13]:
+			xmin = 1.1
+			xmax = 1.13
+			text = "wAs1"
+		intervals [14]:
+			xmin = 1.13
+			xmax = 1.27
+			text = "AsÂ0"
+		intervals [15]:
+			xmin = 1.27
+			xmax = 1.3
+			text = "sÂo2"
+		intervals [16]:
+			xmin = 1.3
+			xmax = 1.48
+			text = "Âot1"
+		intervals [17]:
+			xmin = 1.48
+			xmax = 1.53
+			text = "otÛ0"
+		intervals [18]:
+			xmin = 1.53
+			xmax = 1.69
+			text = "tÛM0"
+		intervals [19]:
+			xmin = 1.69
+			xmax = 1.76
+			text = "ÛMÂ0"
+		intervals [20]:
+			xmin = 1.76
+			xmax = 1.93
+			text = "MÂ.2"
+	item[2]:
+		class = "IntervalTier"
+		name = "true.words"
+		xmin = 0
+		xmax = 1.93
+		intervals: size = 6
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.33
+			text = "__SIL__"
+		intervals [2]:
+			xmin = 0.33
+			xmax = 0.63
+			text = "OyÃºru"
+		intervals [3]:
+			xmin = 0.63
+			xmax = 1.01
+			text = "yÃ©ebandÃ­"
+		intervals [4]:
+			xmin = 1.01
+			xmax = 1.1
+			text = "wa"
+		intervals [5]:
+			xmin = 1.1
+			xmax = 1.3
+			text = "asÃ¡a"
+		intervals [6]:
+			xmin = 1.3
+			xmax = 1.93
+			text = "otÃºmbÃ¡"
+	item[3]:
+		class = "IntervalTier"
+		name = "pseudo.phones"
+		xmin = 0
+		xmax = 2.66
+		intervals: size = 22
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.07
+			text = "a34"
+		intervals [2]:
+			xmin = 0.07
+			xmax = 0.13
+			text = "a4"
+		intervals [3]:
+			xmin = 0.13
+			xmax = 0.32
+			text = "a39"
+		intervals [4]:
+			xmin = 0.32
+			xmax = 0.44
+			text = "a44"
+		intervals [5]:
+			xmin = 0.44
+			xmax = 0.48
+			text = "a29"
+		intervals [6]:
+			xmin = 0.48
+			xmax = 0.57
+			text = "a45"
+		intervals [7]:
+			xmin = 0.57
+			xmax = 0.77
+			text = "a23"
+		intervals [8]:
+			xmin = 0.77
+			xmax = 0.82
+			text = "a13"
+		intervals [9]:
+			xmin = 0.82
+			xmax = 0.87
+			text = "a5"
+		intervals [10]:
+			xmin = 0.87
+			xmax = 0.97
+			text = "a13"
+		intervals [11]:
+			xmin = 0.97
+			xmax = 1.04
+			text = "a41"
+		intervals [12]:
+			xmin = 1.04
+			xmax = 1.12
+			text = "a40"
+		intervals [13]:
+			xmin = 1.12
+			xmax = 1.25
+			text = "a46"
+		intervals [14]:
+			xmin = 1.25
+			xmax = 1.48
+			text = "a15"
+		intervals [15]:
+			xmin = 1.48
+			xmax = 1.53
+			text = "a26"
+		intervals [16]:
+			xmin = 1.53
+			xmax = 1.62
+			text = "a15"
+		intervals [17]:
+			xmin = 1.62
+			xmax = 1.73
+			text = "a30"
+		intervals [18]:
+			xmin = 1.73
+			xmax = 1.85
+			text = "a5"
+		intervals [19]:
+			xmin = 1.85
+			xmax = 2.18
+			text = "a16"
+		intervals [20]:
+			xmin = 2.18
+			xmax = 2.51
+			text = "a0"
+		intervals [21]:
+			xmin = 2.51
+			xmax = 2.58
+			text = "a38"
+		intervals [22]:
+			xmin = 2.58
+			xmax = 2.66
+			text = "a17"
+	item[4]:
+		class = "IntervalTier"
+		name = "discovered.words"
+		xmin = 0
+		xmax = 2.66
+		intervals: size = 3
+		intervals [1]:
+			xmin = 0.0
+			xmax = 1.53
+			text = "a34a4a39a44a29a45a23a13a5a13a41a40a46a15a26"
+		intervals [2]:
+			xmin = 1.53
+			xmax = 1.85
+			text = "a15a30a5"
+		intervals [3]:
+			xmin = 1.85
+			xmax = 2.66
+			text = "a16a0a38a17"

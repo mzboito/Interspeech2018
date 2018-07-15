@@ -1,0 +1,236 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.89
+tiers? <exists>
+size = 4
+item[]:
+	item[1]:
+		class = "IntervalTier"
+		name = "true.phones"
+		xmin = 0
+		xmax = 1.89
+		intervals: size = 20
+		intervals [1]:
+			xmin = 0.01
+			xmax = 0.75
+			text = "__..o3__"
+		intervals [2]:
+			xmin = 0.75
+			xmax = 0.88
+			text = ".oj1"
+		intervals [3]:
+			xmin = 0.88
+			xmax = 0.92
+			text = "ojÛ0"
+		intervals [4]:
+			xmin = 0.92
+			xmax = 0.96
+			text = "jÛr0"
+		intervals [5]:
+			xmin = 0.96
+			xmax = 0.99
+			text = "ÛrÛ0"
+		intervals [6]:
+			xmin = 0.99
+			xmax = 1.02
+			text = "rÛw2"
+		intervals [7]:
+			xmin = 1.02
+			xmax = 1.05
+			text = "Ûwô1"
+		intervals [8]:
+			xmin = 1.05
+			xmax = 1.13
+			text = "wôÂ2"
+		intervals [9]:
+			xmin = 1.13
+			xmax = 1.16
+			text = "ôÂm1"
+		intervals [10]:
+			xmin = 1.16
+			xmax = 1.21
+			text = "ÂmI0"
+		intervals [11]:
+			xmin = 1.21
+			xmax = 1.3
+			text = "mIk0"
+		intervals [12]:
+			xmin = 1.3
+			xmax = 1.36
+			text = "Ikj0"
+		intervals [13]:
+			xmin = 1.36
+			xmax = 1.4
+			text = "kjê0"
+		intervals [14]:
+			xmin = 1.4
+			xmax = 1.46
+			text = "jên0"
+		intervals [15]:
+			xmin = 1.46
+			xmax = 1.52
+			text = "ênA0"
+		intervals [16]:
+			xmin = 1.52
+			xmax = 1.58
+			text = "nAW2"
+		intervals [17]:
+			xmin = 1.58
+			xmax = 1.66
+			text = "AWÂ1"
+		intervals [18]:
+			xmin = 1.66
+			xmax = 1.73
+			text = "WÂn0"
+		intervals [19]:
+			xmin = 1.73
+			xmax = 1.76
+			text = "ÂnA0"
+		intervals [20]:
+			xmin = 1.76
+			xmax = 1.89
+			text = "nA.2"
+	item[2]:
+		class = "IntervalTier"
+		name = "true.words"
+		xmin = 0
+		xmax = 1.89
+		intervals: size = 5
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.75
+			text = "__SIL__"
+		intervals [2]:
+			xmin = 0.75
+			xmax = 1.02
+			text = "OyÃºrÃº"
+		intervals [3]:
+			xmin = 1.02
+			xmax = 1.13
+			text = "wÃ³"
+		intervals [4]:
+			xmin = 1.13
+			xmax = 1.58
+			text = "Ã¡mikyÃ©na"
+		intervals [5]:
+			xmin = 1.58
+			xmax = 1.89
+			text = "mwÃ¡na"
+	item[3]:
+		class = "IntervalTier"
+		name = "pseudo.phones"
+		xmin = 0
+		xmax = 2.43
+		intervals: size = 25
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.13
+			text = "a1"
+		intervals [2]:
+			xmin = 0.13
+			xmax = 0.19
+			text = "a32"
+		intervals [3]:
+			xmin = 0.19
+			xmax = 0.34
+			text = "a10"
+		intervals [4]:
+			xmin = 0.34
+			xmax = 0.55
+			text = "a40"
+		intervals [5]:
+			xmin = 0.55
+			xmax = 0.65
+			text = "a33"
+		intervals [6]:
+			xmin = 0.65
+			xmax = 0.78
+			text = "a29"
+		intervals [7]:
+			xmin = 0.78
+			xmax = 0.9
+			text = "a18"
+		intervals [8]:
+			xmin = 0.9
+			xmax = 0.96
+			text = "a15"
+		intervals [9]:
+			xmin = 0.96
+			xmax = 1.02
+			text = "a36"
+		intervals [10]:
+			xmin = 1.02
+			xmax = 1.15
+			text = "a47"
+		intervals [11]:
+			xmin = 1.15
+			xmax = 1.19
+			text = "a17"
+		intervals [12]:
+			xmin = 1.19
+			xmax = 1.25
+			text = "a4"
+		intervals [13]:
+			xmin = 1.25
+			xmax = 1.31
+			text = "a0"
+		intervals [14]:
+			xmin = 1.31
+			xmax = 1.35
+			text = "a21"
+		intervals [15]:
+			xmin = 1.35
+			xmax = 1.44
+			text = "a23"
+		intervals [16]:
+			xmin = 1.44
+			xmax = 1.51
+			text = "a36"
+		intervals [17]:
+			xmin = 1.51
+			xmax = 1.59
+			text = "a35"
+		intervals [18]:
+			xmin = 1.59
+			xmax = 1.62
+			text = "a34"
+		intervals [19]:
+			xmin = 1.62
+			xmax = 1.69
+			text = "a47"
+		intervals [20]:
+			xmin = 1.69
+			xmax = 1.95
+			text = "a16"
+		intervals [21]:
+			xmin = 1.95
+			xmax = 2.08
+			text = "a40"
+		intervals [22]:
+			xmin = 2.08
+			xmax = 2.23
+			text = "a17"
+		intervals [23]:
+			xmin = 2.23
+			xmax = 2.33
+			text = "a33"
+		intervals [24]:
+			xmin = 2.33
+			xmax = 2.38
+			text = "a38"
+		intervals [25]:
+			xmin = 2.38
+			xmax = 2.43
+			text = "a24"
+	item[4]:
+		class = "IntervalTier"
+		name = "discovered.words"
+		xmin = 0
+		xmax = 2.43
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0
+			xmax = 2.43
+			text = "a1a32a10a40a33a29a18a15a36a47a17a4a0a21a23a36a35a34a47a16a40a17a33a38a24"

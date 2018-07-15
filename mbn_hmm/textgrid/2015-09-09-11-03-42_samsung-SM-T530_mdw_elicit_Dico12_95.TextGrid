@@ -1,0 +1,196 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.82
+tiers? <exists>
+size = 4
+item[]:
+	item[1]:
+		class = "IntervalTier"
+		name = "true.phones"
+		xmin = 0
+		xmax = 1.82
+		intervals: size = 13
+		intervals [1]:
+			xmin = 0.01
+			xmax = 0.66
+			text = "__..w3__"
+		intervals [2]:
+			xmin = 0.66
+			xmax = 0.78
+			text = ".wA1"
+		intervals [3]:
+			xmin = 0.78
+			xmax = 0.82
+			text = "wAl2"
+		intervals [4]:
+			xmin = 0.82
+			xmax = 0.87
+			text = "Ale1"
+		intervals [5]:
+			xmin = 0.87
+			xmax = 0.96
+			text = "leﬂ0"
+		intervals [6]:
+			xmin = 0.96
+			xmax = 1.01
+			text = "eﬂ‰0"
+		intervals [7]:
+			xmin = 1.01
+			xmax = 1.17
+			text = "ﬂ‰Ò0"
+		intervals [8]:
+			xmin = 1.17
+			xmax = 1.27
+			text = "‰ÒŒ2"
+		intervals [9]:
+			xmin = 1.27
+			xmax = 1.31
+			text = "ÒŒm1"
+		intervals [10]:
+			xmin = 1.31
+			xmax = 1.37
+			text = "ŒmI0"
+		intervals [11]:
+			xmin = 1.37
+			xmax = 1.41
+			text = "mIs0"
+		intervals [12]:
+			xmin = 1.41
+			xmax = 1.55
+			text = "Is“0"
+		intervals [13]:
+			xmin = 1.55
+			xmax = 1.82
+			text = "s“.2"
+	item[2]:
+		class = "IntervalTier"
+		name = "true.words"
+		xmin = 0
+		xmax = 1.82
+		intervals: size = 4
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.66
+			text = "__SIL__"
+		intervals [2]:
+			xmin = 0.66
+			xmax = 0.82
+			text = "Wa"
+		intervals [3]:
+			xmin = 0.82
+			xmax = 1.27
+			text = "lebh√°√°nyi"
+		intervals [4]:
+			xmin = 1.27
+			xmax = 1.82
+			text = "√≠misœéœâ"
+	item[3]:
+		class = "IntervalTier"
+		name = "pseudo.phones"
+		xmin = 0
+		xmax = 2.38
+		intervals: size = 23
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.1
+			text = "a1"
+		intervals [2]:
+			xmin = 0.1
+			xmax = 0.21
+			text = "a32"
+		intervals [3]:
+			xmin = 0.21
+			xmax = 0.29
+			text = "a18"
+		intervals [4]:
+			xmin = 0.29
+			xmax = 0.35
+			text = "a43"
+		intervals [5]:
+			xmin = 0.35
+			xmax = 0.46
+			text = "a35"
+		intervals [6]:
+			xmin = 0.46
+			xmax = 0.55
+			text = "a26"
+		intervals [7]:
+			xmin = 0.55
+			xmax = 0.62
+			text = "a25"
+		intervals [8]:
+			xmin = 0.62
+			xmax = 0.71
+			text = "a29"
+		intervals [9]:
+			xmin = 0.71
+			xmax = 0.82
+			text = "a47"
+		intervals [10]:
+			xmin = 0.82
+			xmax = 0.96
+			text = "a1"
+		intervals [11]:
+			xmin = 0.96
+			xmax = 1.02
+			text = "a36"
+		intervals [12]:
+			xmin = 1.02
+			xmax = 1.07
+			text = "a31"
+		intervals [13]:
+			xmin = 1.07
+			xmax = 1.26
+			text = "a4"
+		intervals [14]:
+			xmin = 1.26
+			xmax = 1.36
+			text = "a4"
+		intervals [15]:
+			xmin = 1.36
+			xmax = 1.49
+			text = "a0"
+		intervals [16]:
+			xmin = 1.49
+			xmax = 1.57
+			text = "a46"
+		intervals [17]:
+			xmin = 1.57
+			xmax = 1.67
+			text = "a31"
+		intervals [18]:
+			xmin = 1.67
+			xmax = 1.9
+			text = "a37"
+		intervals [19]:
+			xmin = 1.9
+			xmax = 1.97
+			text = "a18"
+		intervals [20]:
+			xmin = 1.97
+			xmax = 2.04
+			text = "a26"
+		intervals [21]:
+			xmin = 2.04
+			xmax = 2.21
+			text = "a10"
+		intervals [22]:
+			xmin = 2.21
+			xmax = 2.34
+			text = "a32"
+		intervals [23]:
+			xmin = 2.34
+			xmax = 2.38
+			text = "a40"
+	item[4]:
+		class = "IntervalTier"
+		name = "discovered.words"
+		xmin = 0
+		xmax = 2.38
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0
+			xmax = 2.38
+			text = "a1a32a18a43a35a26a25a29a47a1a36a31a4a4a0a46a31a37a18a26a10a32a40"

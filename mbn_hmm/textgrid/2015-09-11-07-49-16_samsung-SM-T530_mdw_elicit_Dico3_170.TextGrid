@@ -1,0 +1,84 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.99
+tiers? <exists>
+size = 4
+item[]:
+	item[1]:
+		class = "IntervalTier"
+		name = "true.phones"
+		xmin = 0
+		xmax = 0.99
+		intervals: size = 11
+		intervals [1]:
+			xmin = 0.01
+			xmax = 0.18
+			text = "__..j3__"
+		intervals [2]:
+			xmin = 0.18
+			xmax = 0.3
+			text = ".jê3"
+		intervals [3]:
+			xmin = 0.3
+			xmax = 0.37
+			text = "jêd1"
+		intervals [4]:
+			xmin = 0.37
+			xmax = 0.44
+			text = "êdU0"
+		intervals [5]:
+			xmin = 0.44
+			xmax = 0.5
+			text = "dUß0"
+		intervals [6]:
+			xmin = 0.5
+			xmax = 0.53
+			text = "UßU0"
+		intervals [7]:
+			xmin = 0.53
+			xmax = 0.58
+			text = "ßUl0"
+		intervals [8]:
+			xmin = 0.58
+			xmax = 0.66
+			text = "UlU0"
+		intervals [9]:
+			xmin = 0.66
+			xmax = 0.69
+			text = "lUG2"
+		intervals [10]:
+			xmin = 0.69
+			xmax = 0.81
+			text = "UGÂ1"
+		intervals [11]:
+			xmin = 0.81
+			xmax = 0.99
+			text = "GÂ.2"
+	item[2]:
+		class = "IntervalTier"
+		name = "true.words"
+		xmin = 0
+		xmax = 0.99
+		intervals: size = 4
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.18
+			text = "__SIL__"
+		intervals [2]:
+			xmin = 0.18
+			xmax = 0.3
+			text = "YÃ©"
+		intervals [3]:
+			xmin = 0.3
+			xmax = 0.69
+			text = "edubhulu"
+		intervals [4]:
+			xmin = 0.69
+			xmax = 0.99
+			text = "yÃ¡"
+	item[3]:
+		class = "IntervalTier"
+		name = "pseudo.phones"
+		xmin = 0

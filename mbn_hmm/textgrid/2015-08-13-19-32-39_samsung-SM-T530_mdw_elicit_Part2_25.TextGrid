@@ -1,0 +1,356 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 4.23
+tiers? <exists>
+size = 4
+item[]:
+	item[1]:
+		class = "IntervalTier"
+		name = "true.phones"
+		xmin = 0
+		xmax = 4.23
+		intervals: size = 23
+		intervals [1]:
+			xmin = 0.01
+			xmax = 0.38
+			text = "__..!3__"
+		intervals [2]:
+			xmin = 0.38
+			xmax = 0.41
+			text = ".!!1"
+		intervals [3]:
+			xmin = 0.41
+			xmax = 0.44
+			text = "!!.2"
+		intervals [4]:
+			xmin = 0.44
+			xmax = 2.44
+			text = "__!.k3__"
+		intervals [5]:
+			xmin = 2.44
+			xmax = 2.53
+			text = ".ko1"
+		intervals [6]:
+			xmin = 2.53
+			xmax = 2.59
+			text = "koß0"
+		intervals [7]:
+			xmin = 2.59
+			xmax = 2.64
+			text = "oßÂ0"
+		intervals [8]:
+			xmin = 2.64
+			xmax = 2.75
+			text = "ßÂk2"
+		intervals [9]:
+			xmin = 2.75
+			xmax = 2.88
+			text = "ÂkI1"
+		intervals [10]:
+			xmin = 2.88
+			xmax = 2.97
+			text = "kIn0"
+		intervals [11]:
+			xmin = 2.97
+			xmax = 3.04
+			text = "InÎ0"
+		intervals [12]:
+			xmin = 3.04
+			xmax = 3.15
+			text = "nÎn0"
+		intervals [13]:
+			xmin = 3.15
+			xmax = 3.24
+			text = "ÎnI0"
+		intervals [14]:
+			xmin = 3.24
+			xmax = 3.36
+			text = "nI.2"
+		intervals [15]:
+			xmin = 3.36
+			xmax = 3.53
+			text = "__I.!3__"
+		intervals [16]:
+			xmin = 3.53
+			xmax = 3.56
+			text = ".!!1"
+		intervals [17]:
+			xmin = 3.56
+			xmax = 3.59
+			text = "!!B2"
+		intervals [18]:
+			xmin = 3.59
+			xmax = 3.73
+			text = "!BÛ1"
+		intervals [19]:
+			xmin = 3.73
+			xmax = 3.84
+			text = "BÛl2"
+		intervals [20]:
+			xmin = 3.84
+			xmax = 3.92
+			text = "Ûlò1"
+		intervals [21]:
+			xmin = 3.92
+			xmax = 4.04
+			text = "lòb0"
+		intervals [22]:
+			xmin = 4.04
+			xmax = 4.13
+			text = "òbÎ0"
+		intervals [23]:
+			xmin = 4.13
+			xmax = 4.23
+			text = "bÎA0"
+	item[2]:
+		class = "IntervalTier"
+		name = "true.words"
+		xmin = 0
+		xmax = 4.23
+		intervals: size = 9
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.38
+			text = "__SIL__"
+		intervals [2]:
+			xmin = 0.38
+			xmax = 0.44
+			text = "<UNK>"
+		intervals [3]:
+			xmin = 0.44
+			xmax = 2.44
+			text = "__SIL__"
+		intervals [4]:
+			xmin = 2.44
+			xmax = 2.75
+			text = "KobhÃ¡"
+		intervals [5]:
+			xmin = 2.75
+			xmax = 3.36
+			text = "kinÃ­ni"
+		intervals [6]:
+			xmin = 3.36
+			xmax = 3.53
+			text = "__SIL__"
+		intervals [7]:
+			xmin = 3.53
+			xmax = 3.59
+			text = "<UNK>"
+		intervals [8]:
+			xmin = 3.59
+			xmax = 3.84
+			text = "bvÃºu"
+		intervals [9]:
+			xmin = 3.84
+			xmax = 4.23
+			text = "lÃ³obÃ­a"
+	item[3]:
+		class = "IntervalTier"
+		name = "pseudo.phones"
+		xmin = 0
+		xmax = 5.11
+		intervals: size = 48
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.08
+			text = "a27"
+		intervals [2]:
+			xmin = 0.08
+			xmax = 0.39
+			text = "a45"
+		intervals [3]:
+			xmin = 0.39
+			xmax = 0.52
+			text = "a45"
+		intervals [4]:
+			xmin = 0.52
+			xmax = 0.76
+			text = "a40"
+		intervals [5]:
+			xmin = 0.76
+			xmax = 0.83
+			text = "a38"
+		intervals [6]:
+			xmin = 0.83
+			xmax = 0.89
+			text = "a8"
+		intervals [7]:
+			xmin = 0.89
+			xmax = 1.0
+			text = "a40"
+		intervals [8]:
+			xmin = 1.0
+			xmax = 1.17
+			text = "a10"
+		intervals [9]:
+			xmin = 1.17
+			xmax = 1.28
+			text = "a10"
+		intervals [10]:
+			xmin = 1.28
+			xmax = 1.36
+			text = "a35"
+		intervals [11]:
+			xmin = 1.36
+			xmax = 1.43
+			text = "a33"
+		intervals [12]:
+			xmin = 1.43
+			xmax = 1.55
+			text = "a20"
+		intervals [13]:
+			xmin = 1.55
+			xmax = 1.77
+			text = "a33"
+		intervals [14]:
+			xmin = 1.77
+			xmax = 1.91
+			text = "a33"
+		intervals [15]:
+			xmin = 1.91
+			xmax = 2.0
+			text = "a27"
+		intervals [16]:
+			xmin = 2.0
+			xmax = 2.07
+			text = "a44"
+		intervals [17]:
+			xmin = 2.07
+			xmax = 2.11
+			text = "a24"
+		intervals [18]:
+			xmin = 2.11
+			xmax = 2.4
+			text = "a41"
+		intervals [19]:
+			xmin = 2.4
+			xmax = 2.5
+			text = "a34"
+		intervals [20]:
+			xmin = 2.5
+			xmax = 2.59
+			text = "a35"
+		intervals [21]:
+			xmin = 2.59
+			xmax = 2.71
+			text = "a47"
+		intervals [22]:
+			xmin = 2.71
+			xmax = 2.8
+			text = "a28"
+		intervals [23]:
+			xmin = 2.8
+			xmax = 2.87
+			text = "a21"
+		intervals [24]:
+			xmin = 2.87
+			xmax = 2.97
+			text = "a15"
+		intervals [25]:
+			xmin = 2.97
+			xmax = 3.02
+			text = "a20"
+		intervals [26]:
+			xmin = 3.02
+			xmax = 3.19
+			text = "a15"
+		intervals [27]:
+			xmin = 3.19
+			xmax = 3.23
+			text = "a20"
+		intervals [28]:
+			xmin = 3.23
+			xmax = 3.4
+			text = "a12"
+		intervals [29]:
+			xmin = 3.4
+			xmax = 3.52
+			text = "a9"
+		intervals [30]:
+			xmin = 3.52
+			xmax = 3.67
+			text = "a29"
+		intervals [31]:
+			xmin = 3.67
+			xmax = 3.76
+			text = "a34"
+		intervals [32]:
+			xmin = 3.76
+			xmax = 3.81
+			text = "a35"
+		intervals [33]:
+			xmin = 3.81
+			xmax = 3.85
+			text = "a20"
+		intervals [34]:
+			xmin = 3.85
+			xmax = 3.91
+			text = "a43"
+		intervals [35]:
+			xmin = 3.91
+			xmax = 4.02
+			text = "a35"
+		intervals [36]:
+			xmin = 4.02
+			xmax = 4.1
+			text = "a14"
+		intervals [37]:
+			xmin = 4.1
+			xmax = 4.16
+			text = "a15"
+		intervals [38]:
+			xmin = 4.16
+			xmax = 4.26
+			text = "a23"
+		intervals [39]:
+			xmin = 4.26
+			xmax = 4.36
+			text = "a5"
+		intervals [40]:
+			xmin = 4.36
+			xmax = 4.46
+			text = "a16"
+		intervals [41]:
+			xmin = 4.46
+			xmax = 4.5
+			text = "a25"
+		intervals [42]:
+			xmin = 4.5
+			xmax = 4.72
+			text = "a41"
+		intervals [43]:
+			xmin = 4.72
+			xmax = 4.77
+			text = "a40"
+		intervals [44]:
+			xmin = 4.77
+			xmax = 4.84
+			text = "a10"
+		intervals [45]:
+			xmin = 4.84
+			xmax = 4.95
+			text = "a3"
+		intervals [46]:
+			xmin = 4.95
+			xmax = 5.01
+			text = "a38"
+		intervals [47]:
+			xmin = 5.01
+			xmax = 5.07
+			text = "a40"
+		intervals [48]:
+			xmin = 5.07
+			xmax = 5.11
+			text = "a40"
+	item[4]:
+		class = "IntervalTier"
+		name = "discovered.words"
+		xmin = 0
+		xmax = 5.11
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0
+			xmax = 5.11
+			text = "a27a45a45a40a38a8a40a10a10a35a33a20a33a33a27a44a24a41a34a35a47a28a21a15a20a15a20a12a9a29a34a35a20a43a35a14a15a23a5a16a25a41a40a10a3a38a40a40"

@@ -1,0 +1,160 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.31
+tiers? <exists>
+size = 4
+item[]:
+	item[1]:
+		class = "IntervalTier"
+		name = "true.phones"
+		xmin = 0
+		xmax = 1.31
+		intervals: size = 8
+		intervals [1]:
+			xmin = 0.01
+			xmax = 0.35
+			text = "__..b3__"
+		intervals [2]:
+			xmin = 0.35
+			xmax = 0.47
+			text = ".b‰1"
+		intervals [3]:
+			xmin = 0.47
+			xmax = 0.64
+			text = "b‰N0"
+		intervals [4]:
+			xmin = 0.64
+			xmax = 0.77
+			text = "‰NÙ2"
+		intervals [5]:
+			xmin = 0.77
+			xmax = 0.88
+			text = "NÙD1"
+		intervals [6]:
+			xmin = 0.88
+			xmax = 1.03
+			text = "ÙDw0"
+		intervals [7]:
+			xmin = 1.03
+			xmax = 1.1
+			text = "DwA0"
+		intervals [8]:
+			xmin = 1.1
+			xmax = 1.31
+			text = "wA.2"
+	item[2]:
+		class = "IntervalTier"
+		name = "true.words"
+		xmin = 0
+		xmax = 1.31
+		intervals: size = 3
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.35
+			text = "__SIL__"
+		intervals [2]:
+			xmin = 0.35
+			xmax = 0.77
+			text = "B√°√°nd√°"
+		intervals [3]:
+			xmin = 0.77
+			xmax = 1.31
+			text = "odzwa"
+	item[3]:
+		class = "IntervalTier"
+		name = "pseudo.phones"
+		xmin = 0
+		xmax = 2.09
+		intervals: size = 18
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.06
+			text = "a34"
+		intervals [2]:
+			xmin = 0.06
+			xmax = 0.21
+			text = "a20"
+		intervals [3]:
+			xmin = 0.21
+			xmax = 0.34
+			text = "a0"
+		intervals [4]:
+			xmin = 0.34
+			xmax = 0.4
+			text = "a29"
+		intervals [5]:
+			xmin = 0.4
+			xmax = 0.45
+			text = "a8"
+		intervals [6]:
+			xmin = 0.45
+			xmax = 0.64
+			text = "a3"
+		intervals [7]:
+			xmin = 0.64
+			xmax = 0.71
+			text = "a30"
+		intervals [8]:
+			xmin = 0.71
+			xmax = 0.74
+			text = "a26"
+		intervals [9]:
+			xmin = 0.74
+			xmax = 0.86
+			text = "a32"
+		intervals [10]:
+			xmin = 0.86
+			xmax = 0.92
+			text = "a13"
+		intervals [11]:
+			xmin = 0.92
+			xmax = 0.95
+			text = "a43"
+		intervals [12]:
+			xmin = 0.95
+			xmax = 1.02
+			text = "a26"
+		intervals [13]:
+			xmin = 1.02
+			xmax = 1.08
+			text = "a32"
+		intervals [14]:
+			xmin = 1.08
+			xmax = 1.13
+			text = "a1"
+		intervals [15]:
+			xmin = 1.13
+			xmax = 1.25
+			text = "a6"
+		intervals [16]:
+			xmin = 1.25
+			xmax = 1.91
+			text = "a16"
+		intervals [17]:
+			xmin = 1.91
+			xmax = 1.97
+			text = "a38"
+		intervals [18]:
+			xmin = 1.97
+			xmax = 2.09
+			text = "a0"
+	item[4]:
+		class = "IntervalTier"
+		name = "discovered.words"
+		xmin = 0
+		xmax = 2.09
+		intervals: size = 3
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.21
+			text = "a34a20"
+		intervals [2]:
+			xmin = 0.21
+			xmax = 0.74
+			text = "a0a29a8a3a30a26"
+		intervals [3]:
+			xmin = 0.74
+			xmax = 2.09
+			text = "a32a13a43a26a32a1a6a16a38a0"

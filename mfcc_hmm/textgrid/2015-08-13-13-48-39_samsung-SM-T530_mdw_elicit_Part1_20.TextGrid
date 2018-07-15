@@ -1,0 +1,236 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.44
+tiers? <exists>
+size = 4
+item[]:
+	item[1]:
+		class = "IntervalTier"
+		name = "true.phones"
+		xmin = 0
+		xmax = 1.44
+		intervals: size = 12
+		intervals [1]:
+			xmin = 0.01
+			xmax = 0.08
+			text = "__..w3__"
+		intervals [2]:
+			xmin = 0.08
+			xmax = 0.26
+			text = ".wA1"
+		intervals [3]:
+			xmin = 0.26
+			xmax = 0.32
+			text = "wAl2"
+		intervals [4]:
+			xmin = 0.32
+			xmax = 0.37
+			text = "Al‡1"
+		intervals [5]:
+			xmin = 0.37
+			xmax = 0.52
+			text = "l‡t0"
+		intervals [6]:
+			xmin = 0.52
+			xmax = 0.67
+			text = "‡t€0"
+		intervals [7]:
+			xmin = 0.67
+			xmax = 0.79
+			text = "t€ﬂ0"
+		intervals [8]:
+			xmin = 0.79
+			xmax = 0.82
+			text = "€ﬂŒ2"
+		intervals [9]:
+			xmin = 0.82
+			xmax = 1.06
+			text = "ﬂŒp1"
+		intervals [10]:
+			xmin = 1.06
+			xmax = 1.12
+			text = "ŒpI0"
+		intervals [11]:
+			xmin = 1.12
+			xmax = 1.28
+			text = "pIA0"
+		intervals [12]:
+			xmin = 1.28
+			xmax = 1.44
+			text = "IA.2"
+	item[2]:
+		class = "IntervalTier"
+		name = "true.words"
+		xmin = 0
+		xmax = 1.44
+		intervals: size = 4
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.08
+			text = "__SIL__"
+		intervals [2]:
+			xmin = 0.08
+			xmax = 0.32
+			text = "Wa"
+		intervals [3]:
+			xmin = 0.32
+			xmax = 0.82
+			text = "l√°at√∫bh√°"
+		intervals [4]:
+			xmin = 0.82
+			xmax = 1.44
+			text = "ipia"
+	item[3]:
+		class = "IntervalTier"
+		name = "pseudo.phones"
+		xmin = 0
+		xmax = 2.34
+		intervals: size = 29
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.03
+			text = "a6"
+		intervals [2]:
+			xmin = 0.03
+			xmax = 0.07
+			text = "a9"
+		intervals [3]:
+			xmin = 0.07
+			xmax = 0.12
+			text = "a27"
+		intervals [4]:
+			xmin = 0.12
+			xmax = 0.24
+			text = "a2"
+		intervals [5]:
+			xmin = 0.24
+			xmax = 0.32
+			text = "a9"
+		intervals [6]:
+			xmin = 0.32
+			xmax = 0.35
+			text = "a37"
+		intervals [7]:
+			xmin = 0.35
+			xmax = 0.48
+			text = "a28"
+		intervals [8]:
+			xmin = 0.48
+			xmax = 0.53
+			text = "a5"
+		intervals [9]:
+			xmin = 0.53
+			xmax = 0.57
+			text = "a12"
+		intervals [10]:
+			xmin = 0.57
+			xmax = 0.62
+			text = "a5"
+		intervals [11]:
+			xmin = 0.62
+			xmax = 0.68
+			text = "a38"
+		intervals [12]:
+			xmin = 0.68
+			xmax = 0.75
+			text = "a24"
+		intervals [13]:
+			xmin = 0.75
+			xmax = 0.78
+			text = "a12"
+		intervals [14]:
+			xmin = 0.78
+			xmax = 0.81
+			text = "a42"
+		intervals [15]:
+			xmin = 0.81
+			xmax = 0.93
+			text = "a17"
+		intervals [16]:
+			xmin = 0.93
+			xmax = 1.0
+			text = "a31"
+		intervals [17]:
+			xmin = 1.0
+			xmax = 1.05
+			text = "a4"
+		intervals [18]:
+			xmin = 1.05
+			xmax = 1.11
+			text = "a33"
+		intervals [19]:
+			xmin = 1.11
+			xmax = 1.14
+			text = "a17"
+		intervals [20]:
+			xmin = 1.14
+			xmax = 1.2
+			text = "a43"
+		intervals [21]:
+			xmin = 1.2
+			xmax = 1.25
+			text = "a47"
+		intervals [22]:
+			xmin = 1.25
+			xmax = 1.31
+			text = "a21"
+		intervals [23]:
+			xmin = 1.31
+			xmax = 1.44
+			text = "a22"
+		intervals [24]:
+			xmin = 1.44
+			xmax = 1.53
+			text = "a45"
+		intervals [25]:
+			xmin = 1.53
+			xmax = 1.68
+			text = "a39"
+		intervals [26]:
+			xmin = 1.68
+			xmax = 2.14
+			text = "a14"
+		intervals [27]:
+			xmin = 2.14
+			xmax = 2.22
+			text = "a23"
+		intervals [28]:
+			xmin = 2.22
+			xmax = 2.27
+			text = "a45"
+		intervals [29]:
+			xmin = 2.27
+			xmax = 2.34
+			text = "a6"
+	item[4]:
+		class = "IntervalTier"
+		name = "discovered.words"
+		xmin = 0
+		xmax = 2.34
+		intervals: size = 6
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.07
+			text = "a6a9"
+		intervals [2]:
+			xmin = 0.07
+			xmax = 0.48
+			text = "a27a2a9a37a28"
+		intervals [3]:
+			xmin = 0.48
+			xmax = 0.93
+			text = "a5a12a5a38a24a12a42a17"
+		intervals [4]:
+			xmin = 0.93
+			xmax = 1.68
+			text = "a31a4a33a17a43a47a21a22a45a39"
+		intervals [5]:
+			xmin = 1.68
+			xmax = 2.22
+			text = "a14a23"
+		intervals [6]:
+			xmin = 2.22
+			xmax = 2.34
+			text = "a45a6"

@@ -1,0 +1,236 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.77
+tiers? <exists>
+size = 4
+item[]:
+	item[1]:
+		class = "IntervalTier"
+		name = "true.phones"
+		xmin = 0
+		xmax = 1.77
+		intervals: size = 17
+		intervals [1]:
+			xmin = 0.01
+			xmax = 0.26
+			text = "__..b3__"
+		intervals [2]:
+			xmin = 0.26
+			xmax = 0.38
+			text = ".bô1"
+		intervals [3]:
+			xmin = 0.38
+			xmax = 0.45
+			text = "bôN0"
+		intervals [4]:
+			xmin = 0.45
+			xmax = 0.52
+			text = "ôNÂ0"
+		intervals [5]:
+			xmin = 0.52
+			xmax = 0.58
+			text = "NÂG2"
+		intervals [6]:
+			xmin = 0.58
+			xmax = 0.7
+			text = "ÂGú1"
+		intervals [7]:
+			xmin = 0.7
+			xmax = 0.79
+			text = "GúG0"
+		intervals [8]:
+			xmin = 0.79
+			xmax = 0.9
+			text = "úGú0"
+		intervals [9]:
+			xmin = 0.9
+			xmax = 0.98
+			text = "Gúl2"
+		intervals [10]:
+			xmin = 0.98
+			xmax = 1.04
+			text = "úlà1"
+		intervals [11]:
+			xmin = 1.04
+			xmax = 1.15
+			text = "làß0"
+		intervals [12]:
+			xmin = 1.15
+			xmax = 1.22
+			text = "àßÕ0"
+		intervals [13]:
+			xmin = 1.22
+			xmax = 1.28
+			text = "ßÕs2"
+		intervals [14]:
+			xmin = 1.28
+			xmax = 1.41
+			text = "ÕsÂ1"
+		intervals [15]:
+			xmin = 1.41
+			xmax = 1.45
+			text = "sÂk2"
+		intervals [16]:
+			xmin = 1.45
+			xmax = 1.59
+			text = "ÂkO1"
+		intervals [17]:
+			xmin = 1.59
+			xmax = 1.77
+			text = "kO.2"
+	item[2]:
+		class = "IntervalTier"
+		name = "true.words"
+		xmin = 0
+		xmax = 1.77
+		intervals: size = 6
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.26
+			text = "__SIL__"
+		intervals [2]:
+			xmin = 0.26
+			xmax = 0.58
+			text = "BÃ³ndÃ¡"
+		intervals [3]:
+			xmin = 0.58
+			xmax = 0.98
+			text = "nguÃºnguÃº"
+		intervals [4]:
+			xmin = 0.98
+			xmax = 1.28
+			text = "lÃ¡abhÏ‰Ï‰"
+		intervals [5]:
+			xmin = 1.28
+			xmax = 1.45
+			text = "sÃ¡"
+		intervals [6]:
+			xmin = 1.45
+			xmax = 1.77
+			text = "kÏ‰"
+	item[3]:
+		class = "IntervalTier"
+		name = "pseudo.phones"
+		xmin = 0
+		xmax = 2.38
+		intervals: size = 23
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.06
+			text = "a34"
+		intervals [2]:
+			xmin = 0.06
+			xmax = 0.25
+			text = "a0"
+		intervals [3]:
+			xmin = 0.25
+			xmax = 0.31
+			text = "a29"
+		intervals [4]:
+			xmin = 0.31
+			xmax = 0.34
+			text = "a8"
+		intervals [5]:
+			xmin = 0.34
+			xmax = 0.43
+			text = "a15"
+		intervals [6]:
+			xmin = 0.43
+			xmax = 0.49
+			text = "a30"
+		intervals [7]:
+			xmin = 0.49
+			xmax = 0.56
+			text = "a5"
+		intervals [8]:
+			xmin = 0.56
+			xmax = 0.7
+			text = "a30"
+		intervals [9]:
+			xmin = 0.7
+			xmax = 0.77
+			text = "a15"
+		intervals [10]:
+			xmin = 0.77
+			xmax = 0.89
+			text = "a30"
+		intervals [11]:
+			xmin = 0.89
+			xmax = 0.98
+			text = "a15"
+		intervals [12]:
+			xmin = 0.98
+			xmax = 1.01
+			text = "a30"
+		intervals [13]:
+			xmin = 1.01
+			xmax = 1.12
+			text = "a5"
+		intervals [14]:
+			xmin = 1.12
+			xmax = 1.18
+			text = "a13"
+		intervals [15]:
+			xmin = 1.18
+			xmax = 1.28
+			text = "a40"
+		intervals [16]:
+			xmin = 1.28
+			xmax = 1.38
+			text = "a46"
+		intervals [17]:
+			xmin = 1.38
+			xmax = 1.43
+			text = "a5"
+		intervals [18]:
+			xmin = 1.43
+			xmax = 1.46
+			text = "a6"
+		intervals [19]:
+			xmin = 1.46
+			xmax = 1.56
+			text = "a42"
+		intervals [20]:
+			xmin = 1.56
+			xmax = 1.68
+			text = "a15"
+		intervals [21]:
+			xmin = 1.68
+			xmax = 2.27
+			text = "a16"
+		intervals [22]:
+			xmin = 2.27
+			xmax = 2.33
+			text = "a38"
+		intervals [23]:
+			xmin = 2.33
+			xmax = 2.38
+			text = "a17"
+	item[4]:
+		class = "IntervalTier"
+		name = "discovered.words"
+		xmin = 0
+		xmax = 2.38
+		intervals: size = 5
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.7
+			text = "a34a0a29a8a15a30a5a30"
+		intervals [2]:
+			xmin = 0.7
+			xmax = 0.77
+			text = "a15"
+		intervals [3]:
+			xmin = 0.77
+			xmax = 1.12
+			text = "a30a15a30a5"
+		intervals [4]:
+			xmin = 1.12
+			xmax = 2.33
+			text = "a13a40a46a5a6a42a15a16a38"
+		intervals [5]:
+			xmin = 2.33
+			xmax = 2.38
+			text = "a17"

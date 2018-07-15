@@ -1,0 +1,124 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 2.3
+tiers? <exists>
+size = 4
+item[]:
+	item[1]:
+		class = "IntervalTier"
+		name = "true.phones"
+		xmin = 0
+		xmax = 2.3
+		intervals: size = 19
+		intervals [1]:
+			xmin = 0.01
+			xmax = 0.74
+			text = "__..b3__"
+		intervals [2]:
+			xmin = 0.74
+			xmax = 0.8
+			text = ".b‡1"
+		intervals [3]:
+			xmin = 0.8
+			xmax = 0.93
+			text = "b‡b2"
+		intervals [4]:
+			xmin = 0.93
+			xmax = 0.98
+			text = "‡b‡1"
+		intervals [5]:
+			xmin = 0.98
+			xmax = 1.16
+			text = "b‡t0"
+		intervals [6]:
+			xmin = 1.16
+			xmax = 1.22
+			text = "‡t€0"
+		intervals [7]:
+			xmin = 1.22
+			xmax = 1.33
+			text = "t€r0"
+		intervals [8]:
+			xmin = 1.33
+			xmax = 1.4
+			text = "€rA2"
+		intervals [9]:
+			xmin = 1.4
+			xmax = 1.51
+			text = "rAM1"
+		intervals [10]:
+			xmin = 1.51
+			xmax = 1.57
+			text = "AMo0"
+		intervals [11]:
+			xmin = 1.57
+			xmax = 1.62
+			text = "Mos0"
+		intervals [12]:
+			xmin = 1.62
+			xmax = 1.7
+			text = "osI0"
+		intervals [13]:
+			xmin = 1.7
+			xmax = 1.73
+			text = "sIs2"
+		intervals [14]:
+			xmin = 1.73
+			xmax = 1.84
+			text = "Is‘3"
+		intervals [15]:
+			xmin = 1.84
+			xmax = 1.94
+			text = "s‘l1"
+		intervals [16]:
+			xmin = 1.94
+			xmax = 2.0
+			text = "‘lO0"
+		intervals [17]:
+			xmin = 2.0
+			xmax = 2.06
+			text = "lOG0"
+		intervals [18]:
+			xmin = 2.06
+			xmax = 2.16
+			text = "OGO0"
+		intervals [19]:
+			xmin = 2.16
+			xmax = 2.3
+			text = "GO.2"
+	item[2]:
+		class = "IntervalTier"
+		name = "true.words"
+		xmin = 0
+		xmax = 2.3
+		intervals: size = 6
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.74
+			text = "__SIL__"
+		intervals [2]:
+			xmin = 0.74
+			xmax = 0.93
+			text = "B√°a"
+		intervals [3]:
+			xmin = 0.93
+			xmax = 1.4
+			text = "b√°at√∫r√°"
+		intervals [4]:
+			xmin = 1.4
+			xmax = 1.73
+			text = "ambosi"
+		intervals [5]:
+			xmin = 1.73
+			xmax = 1.84
+			text = "s'"
+		intervals [6]:
+			xmin = 1.84
+			xmax = 2.3
+			text = "œélœângœâ"
+	item[3]:
+		class = "IntervalTier"
+		name = "pseudo.phones"
+		xmin = 0

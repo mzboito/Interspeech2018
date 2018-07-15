@@ -1,0 +1,236 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.67
+tiers? <exists>
+size = 4
+item[]:
+	item[1]:
+		class = "IntervalTier"
+		name = "true.phones"
+		xmin = 0
+		xmax = 1.67
+		intervals: size = 12
+		intervals [1]:
+			xmin = 0.01
+			xmax = 0.51
+			text = "__..W3__"
+		intervals [2]:
+			xmin = 0.51
+			xmax = 0.66
+			text = ".Wê1"
+		intervals [3]:
+			xmin = 0.66
+			xmax = 0.69
+			text = "Wês0"
+		intervals [4]:
+			xmin = 0.69
+			xmax = 0.86
+			text = "êsô2"
+		intervals [5]:
+			xmin = 0.86
+			xmax = 0.99
+			text = "sôm1"
+		intervals [6]:
+			xmin = 0.99
+			xmax = 1.04
+			text = "ômI0"
+		intervals [7]:
+			xmin = 1.04
+			xmax = 1.12
+			text = "mIj0"
+		intervals [8]:
+			xmin = 1.12
+			xmax = 1.21
+			text = "Ijw0"
+		intervals [9]:
+			xmin = 1.21
+			xmax = 1.25
+			text = "jwÕ0"
+		intervals [10]:
+			xmin = 1.25
+			xmax = 1.38
+			text = "wÕm0"
+		intervals [11]:
+			xmin = 1.38
+			xmax = 1.48
+			text = "ÕmO0"
+		intervals [12]:
+			xmin = 1.48
+			xmax = 1.67
+			text = "mO.2"
+	item[2]:
+		class = "IntervalTier"
+		name = "true.words"
+		xmin = 0
+		xmax = 1.67
+		intervals: size = 3
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.51
+			text = "__SIL__"
+		intervals [2]:
+			xmin = 0.51
+			xmax = 0.86
+			text = "MwÃ©sÃ©"
+		intervals [3]:
+			xmin = 0.86
+			xmax = 1.67
+			text = "Ã³miywÏ‰Ï‰mÏ‰"
+	item[3]:
+		class = "IntervalTier"
+		name = "pseudo.phones"
+		xmin = 0
+		xmax = 2.11
+		intervals: size = 30
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.04
+			text = "a0"
+		intervals [2]:
+			xmin = 0.04
+			xmax = 0.08
+			text = "a26"
+		intervals [3]:
+			xmin = 0.08
+			xmax = 0.13
+			text = "a11"
+		intervals [4]:
+			xmin = 0.13
+			xmax = 0.17
+			text = "a25"
+		intervals [5]:
+			xmin = 0.17
+			xmax = 0.22
+			text = "a45"
+		intervals [6]:
+			xmin = 0.22
+			xmax = 0.27
+			text = "a45"
+		intervals [7]:
+			xmin = 0.27
+			xmax = 0.46
+			text = "a39"
+		intervals [8]:
+			xmin = 0.46
+			xmax = 0.49
+			text = "a45"
+		intervals [9]:
+			xmin = 0.49
+			xmax = 0.53
+			text = "a24"
+		intervals [10]:
+			xmin = 0.53
+			xmax = 0.59
+			text = "a10"
+		intervals [11]:
+			xmin = 0.59
+			xmax = 0.64
+			text = "a5"
+		intervals [12]:
+			xmin = 0.64
+			xmax = 0.68
+			text = "a40"
+		intervals [13]:
+			xmin = 0.68
+			xmax = 0.73
+			text = "a15"
+		intervals [14]:
+			xmin = 0.73
+			xmax = 0.81
+			text = "a13"
+		intervals [15]:
+			xmin = 0.81
+			xmax = 0.86
+			text = "a37"
+		intervals [16]:
+			xmin = 0.86
+			xmax = 0.9
+			text = "a35"
+		intervals [17]:
+			xmin = 0.9
+			xmax = 0.94
+			text = "a10"
+		intervals [18]:
+			xmin = 0.94
+			xmax = 1.0
+			text = "a34"
+		intervals [19]:
+			xmin = 1.0
+			xmax = 1.05
+			text = "a36"
+		intervals [20]:
+			xmin = 1.05
+			xmax = 1.15
+			text = "a21"
+		intervals [21]:
+			xmin = 1.15
+			xmax = 1.25
+			text = "a31"
+		intervals [22]:
+			xmin = 1.25
+			xmax = 1.31
+			text = "a12"
+		intervals [23]:
+			xmin = 1.31
+			xmax = 1.45
+			text = "a12"
+		intervals [24]:
+			xmin = 1.45
+			xmax = 1.51
+			text = "a35"
+		intervals [25]:
+			xmin = 1.51
+			xmax = 1.62
+			text = "a4"
+		intervals [26]:
+			xmin = 1.62
+			xmax = 1.71
+			text = "a3"
+		intervals [27]:
+			xmin = 1.71
+			xmax = 1.79
+			text = "a9"
+		intervals [28]:
+			xmin = 1.79
+			xmax = 2.02
+			text = "a39"
+		intervals [29]:
+			xmin = 2.02
+			xmax = 2.07
+			text = "a44"
+		intervals [30]:
+			xmin = 2.07
+			xmax = 2.11
+			text = "a6"
+	item[4]:
+		class = "IntervalTier"
+		name = "discovered.words"
+		xmin = 0
+		xmax = 2.11
+		intervals: size = 6
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.53
+			text = "a0a26a11a25a45a45a39a45a24"
+		intervals [2]:
+			xmin = 0.53
+			xmax = 0.68
+			text = "a10a5a40"
+		intervals [3]:
+			xmin = 0.68
+			xmax = 0.94
+			text = "a15a13a37a35a10"
+		intervals [4]:
+			xmin = 0.94
+			xmax = 1.05
+			text = "a34a36"
+		intervals [5]:
+			xmin = 1.05
+			xmax = 1.15
+			text = "a21"
+		intervals [6]:
+			xmin = 1.15
+			xmax = 2.11
+			text = "a31a12a12a35a4a3a9a39a44a6"

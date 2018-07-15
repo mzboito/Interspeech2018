@@ -1,0 +1,236 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 2.3
+tiers? <exists>
+size = 4
+item[]:
+	item[1]:
+		class = "IntervalTier"
+		name = "true.phones"
+		xmin = 0
+		xmax = 2.3
+		intervals: size = 18
+		intervals [1]:
+			xmin = 0.01
+			xmax = 0.54
+			text = "__..A3__"
+		intervals [2]:
+			xmin = 0.54
+			xmax = 0.81
+			text = ".As1"
+		intervals [3]:
+			xmin = 0.81
+			xmax = 0.86
+			text = "As€0"
+		intervals [4]:
+			xmin = 0.86
+			xmax = 0.95
+			text = "s€A0"
+		intervals [5]:
+			xmin = 0.95
+			xmax = 1.01
+			text = "€Ab2"
+		intervals [6]:
+			xmin = 1.01
+			xmax = 1.12
+			text = "AbÙ1"
+		intervals [7]:
+			xmin = 1.12
+			xmax = 1.22
+			text = "bÙl2"
+		intervals [8]:
+			xmin = 1.22
+			xmax = 1.29
+			text = "Ùl‡1"
+		intervals [9]:
+			xmin = 1.29
+			xmax = 1.38
+			text = "l‡s0"
+		intervals [10]:
+			xmin = 1.38
+			xmax = 1.53
+			text = "‡s‘0"
+		intervals [11]:
+			xmin = 1.53
+			xmax = 1.56
+			text = "s‘s0"
+		intervals [12]:
+			xmin = 1.56
+			xmax = 1.71
+			text = "‘s÷0"
+		intervals [13]:
+			xmin = 1.71
+			xmax = 1.89
+			text = "s÷o2"
+		intervals [14]:
+			xmin = 1.89
+			xmax = 1.94
+			text = "÷os1"
+		intervals [15]:
+			xmin = 1.94
+			xmax = 2.09
+			text = "osŒ0"
+		intervals [16]:
+			xmin = 2.09
+			xmax = 2.16
+			text = "sŒn0"
+		intervals [17]:
+			xmin = 2.16
+			xmax = 2.21
+			text = "Œn¬0"
+		intervals [18]:
+			xmin = 2.21
+			xmax = 2.3
+			text = "n¬.2"
+	item[2]:
+		class = "IntervalTier"
+		name = "true.words"
+		xmin = 0
+		xmax = 2.3
+		intervals: size = 5
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.54
+			text = "__SIL__"
+		intervals [2]:
+			xmin = 0.54
+			xmax = 1.01
+			text = "As√∫a"
+		intervals [3]:
+			xmin = 1.01
+			xmax = 1.22
+			text = "b√≥"
+		intervals [4]:
+			xmin = 1.22
+			xmax = 1.89
+			text = "l√°asœésœéœé"
+		intervals [5]:
+			xmin = 1.89
+			xmax = 2.3
+			text = "os√≠n√°"
+	item[3]:
+		class = "IntervalTier"
+		name = "pseudo.phones"
+		xmin = 0
+		xmax = 2.95
+		intervals: size = 24
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.07
+			text = "a34"
+		intervals [2]:
+			xmin = 0.07
+			xmax = 0.13
+			text = "a4"
+		intervals [3]:
+			xmin = 0.13
+			xmax = 0.53
+			text = "a39"
+		intervals [4]:
+			xmin = 0.53
+			xmax = 0.59
+			text = "a21"
+		intervals [5]:
+			xmin = 0.59
+			xmax = 0.63
+			text = "a24"
+		intervals [6]:
+			xmin = 0.63
+			xmax = 0.73
+			text = "a36"
+		intervals [7]:
+			xmin = 0.73
+			xmax = 0.84
+			text = "a37"
+		intervals [8]:
+			xmin = 0.84
+			xmax = 0.93
+			text = "a44"
+		intervals [9]:
+			xmin = 0.93
+			xmax = 1.05
+			text = "a32"
+		intervals [10]:
+			xmin = 1.05
+			xmax = 1.2
+			text = "a44"
+		intervals [11]:
+			xmin = 1.2
+			xmax = 1.26
+			text = "a30"
+		intervals [12]:
+			xmin = 1.26
+			xmax = 1.37
+			text = "a5"
+		intervals [13]:
+			xmin = 1.37
+			xmax = 1.5
+			text = "a42"
+		intervals [14]:
+			xmin = 1.5
+			xmax = 1.55
+			text = "a6"
+		intervals [15]:
+			xmin = 1.55
+			xmax = 1.68
+			text = "a46"
+		intervals [16]:
+			xmin = 1.68
+			xmax = 1.93
+			text = "a15"
+		intervals [17]:
+			xmin = 1.93
+			xmax = 2.07
+			text = "a46"
+		intervals [18]:
+			xmin = 2.07
+			xmax = 2.11
+			text = "a25"
+		intervals [19]:
+			xmin = 2.11
+			xmax = 2.19
+			text = "a22"
+		intervals [20]:
+			xmin = 2.19
+			xmax = 2.24
+			text = "a18"
+		intervals [21]:
+			xmin = 2.24
+			xmax = 2.55
+			text = "a16"
+		intervals [22]:
+			xmin = 2.55
+			xmax = 2.8
+			text = "a0"
+		intervals [23]:
+			xmin = 2.8
+			xmax = 2.86
+			text = "a11"
+		intervals [24]:
+			xmin = 2.86
+			xmax = 2.95
+			text = "a17"
+	item[4]:
+		class = "IntervalTier"
+		name = "discovered.words"
+		xmin = 0
+		xmax = 2.95
+		intervals: size = 4
+		intervals [1]:
+			xmin = 0.0
+			xmax = 1.2
+			text = "a34a4a39a21a24a36a37a44a32a44"
+		intervals [2]:
+			xmin = 1.2
+			xmax = 1.26
+			text = "a30"
+		intervals [3]:
+			xmin = 1.26
+			xmax = 1.55
+			text = "a5a42a6"
+		intervals [4]:
+			xmin = 1.55
+			xmax = 2.95
+			text = "a46a15a46a25a22a18a16a0a11a17"

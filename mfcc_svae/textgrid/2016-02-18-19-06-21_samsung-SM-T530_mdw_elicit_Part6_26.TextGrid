@@ -1,0 +1,136 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.6
+tiers? <exists>
+size = 4
+item[]:
+	item[1]:
+		class = "IntervalTier"
+		name = "true.phones"
+		xmin = 0
+		xmax = 1.6
+		intervals: size = 8
+		intervals [1]:
+			xmin = 0.01
+			xmax = 0.69
+			text = "__..k3__"
+		intervals [2]:
+			xmin = 0.69
+			xmax = 0.77
+			text = ".k€1"
+		intervals [3]:
+			xmin = 0.77
+			xmax = 0.83
+			text = "k€m0"
+		intervals [4]:
+			xmin = 0.83
+			xmax = 0.92
+			text = "€m¬0"
+		intervals [5]:
+			xmin = 0.92
+			xmax = 1.01
+			text = "m¬Ù2"
+		intervals [6]:
+			xmin = 1.01
+			xmax = 1.06
+			text = "¬Ùn1"
+		intervals [7]:
+			xmin = 1.06
+			xmax = 1.18
+			text = "Ùn’0"
+		intervals [8]:
+			xmin = 1.18
+			xmax = 1.6
+			text = "n’.2"
+	item[2]:
+		class = "IntervalTier"
+		name = "true.words"
+		xmin = 0
+		xmax = 1.6
+		intervals: size = 3
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.69
+			text = "__SIL__"
+		intervals [2]:
+			xmin = 0.69
+			xmax = 1.01
+			text = "K√∫m√°"
+		intervals [3]:
+			xmin = 1.01
+			xmax = 1.6
+			text = "onœâœâ"
+	item[3]:
+		class = "IntervalTier"
+		name = "pseudo.phones"
+		xmin = 0
+		xmax = 2.29
+		intervals: size = 12
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.17
+			text = "a11"
+		intervals [2]:
+			xmin = 0.17
+			xmax = 0.45
+			text = "a20"
+		intervals [3]:
+			xmin = 0.45
+			xmax = 0.66
+			text = "a0"
+		intervals [4]:
+			xmin = 0.66
+			xmax = 0.73
+			text = "a11"
+		intervals [5]:
+			xmin = 0.73
+			xmax = 0.81
+			text = "a15"
+		intervals [6]:
+			xmin = 0.81
+			xmax = 0.88
+			text = "a47"
+		intervals [7]:
+			xmin = 0.88
+			xmax = 1.06
+			text = "a3"
+		intervals [8]:
+			xmin = 1.06
+			xmax = 1.16
+			text = "a30"
+		intervals [9]:
+			xmin = 1.16
+			xmax = 1.32
+			text = "a28"
+		intervals [10]:
+			xmin = 1.32
+			xmax = 1.59
+			text = "a6"
+		intervals [11]:
+			xmin = 1.59
+			xmax = 1.87
+			text = "a16"
+		intervals [12]:
+			xmin = 1.87
+			xmax = 2.29
+			text = "a0"
+	item[4]:
+		class = "IntervalTier"
+		name = "discovered.words"
+		xmin = 0
+		xmax = 2.29
+		intervals: size = 3
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.66
+			text = "a11a20a0"
+		intervals [2]:
+			xmin = 0.66
+			xmax = 1.16
+			text = "a11a15a47a3a30"
+		intervals [3]:
+			xmin = 1.16
+			xmax = 2.29
+			text = "a28a6a16a0"

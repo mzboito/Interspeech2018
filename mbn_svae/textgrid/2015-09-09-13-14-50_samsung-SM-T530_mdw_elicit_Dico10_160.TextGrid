@@ -1,0 +1,236 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.96
+tiers? <exists>
+size = 4
+item[]:
+	item[1]:
+		class = "IntervalTier"
+		name = "true.phones"
+		xmin = 0
+		xmax = 1.96
+		intervals: size = 20
+		intervals [1]:
+			xmin = 0.01
+			xmax = 0.54
+			text = "__..b3__"
+		intervals [2]:
+			xmin = 0.54
+			xmax = 0.64
+			text = ".bÎ1"
+		intervals [3]:
+			xmin = 0.64
+			xmax = 0.67
+			text = "bÎs0"
+		intervals [4]:
+			xmin = 0.67
+			xmax = 0.78
+			text = "ÎsÎ0"
+		intervals [5]:
+			xmin = 0.78
+			xmax = 0.82
+			text = "sÎl2"
+		intervals [6]:
+			xmin = 0.82
+			xmax = 0.85
+			text = "Îlè1"
+		intervals [7]:
+			xmin = 0.85
+			xmax = 0.97
+			text = "lèB0"
+		intervals [8]:
+			xmin = 0.97
+			xmax = 1.02
+			text = "èBÂ0"
+		intervals [9]:
+			xmin = 1.02
+			xmax = 1.07
+			text = "BÂf2"
+		intervals [10]:
+			xmin = 1.07
+			xmax = 1.2
+			text = "ÂfU1"
+		intervals [11]:
+			xmin = 1.2
+			xmax = 1.23
+			text = "fUl0"
+		intervals [12]:
+			xmin = 1.23
+			xmax = 1.26
+			text = "UlÛ0"
+		intervals [13]:
+			xmin = 1.26
+			xmax = 1.29
+			text = "lÛs2"
+		intervals [14]:
+			xmin = 1.29
+			xmax = 1.42
+			text = "ÛsÂ1"
+		intervals [15]:
+			xmin = 1.42
+			xmax = 1.54
+			text = "sÂk2"
+		intervals [16]:
+			xmin = 1.54
+			xmax = 1.59
+			text = "Âkw1"
+		intervals [17]:
+			xmin = 1.59
+			xmax = 1.63
+			text = "kwe0"
+		intervals [18]:
+			xmin = 1.63
+			xmax = 1.69
+			text = "weß0"
+		intervals [19]:
+			xmin = 1.69
+			xmax = 1.73
+			text = "eßê0"
+		intervals [20]:
+			xmin = 1.73
+			xmax = 1.96
+			text = "ßê.2"
+	item[2]:
+		class = "IntervalTier"
+		name = "true.words"
+		xmin = 0
+		xmax = 1.96
+		intervals: size = 6
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.54
+			text = "__SIL__"
+		intervals [2]:
+			xmin = 0.54
+			xmax = 0.82
+			text = "BÃ­sÃ­"
+		intervals [3]:
+			xmin = 0.82
+			xmax = 1.07
+			text = "lÃ©ebvÃ¡"
+		intervals [4]:
+			xmin = 1.07
+			xmax = 1.29
+			text = "fulÃº"
+		intervals [5]:
+			xmin = 1.29
+			xmax = 1.54
+			text = "sÃ¡"
+		intervals [6]:
+			xmin = 1.54
+			xmax = 1.96
+			text = "kwebhÃ©"
+	item[3]:
+		class = "IntervalTier"
+		name = "pseudo.phones"
+		xmin = 0
+		xmax = 2.95
+		intervals: size = 22
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.07
+			text = "a34"
+		intervals [2]:
+			xmin = 0.07
+			xmax = 0.22
+			text = "a17"
+		intervals [3]:
+			xmin = 0.22
+			xmax = 0.34
+			text = "a16"
+		intervals [4]:
+			xmin = 0.34
+			xmax = 0.52
+			text = "a16"
+		intervals [5]:
+			xmin = 0.52
+			xmax = 0.64
+			text = "a8"
+		intervals [6]:
+			xmin = 0.64
+			xmax = 0.71
+			text = "a25"
+		intervals [7]:
+			xmin = 0.71
+			xmax = 0.83
+			text = "a47"
+		intervals [8]:
+			xmin = 0.83
+			xmax = 0.92
+			text = "a19"
+		intervals [9]:
+			xmin = 0.92
+			xmax = 1.0
+			text = "a47"
+		intervals [10]:
+			xmin = 1.0
+			xmax = 1.18
+			text = "a3"
+		intervals [11]:
+			xmin = 1.18
+			xmax = 1.36
+			text = "a40"
+		intervals [12]:
+			xmin = 1.36
+			xmax = 1.4
+			text = "a13"
+		intervals [13]:
+			xmin = 1.4
+			xmax = 1.55
+			text = "a3"
+		intervals [14]:
+			xmin = 1.55
+			xmax = 1.68
+			text = "a40"
+		intervals [15]:
+			xmin = 1.68
+			xmax = 1.71
+			text = "a42"
+		intervals [16]:
+			xmin = 1.71
+			xmax = 1.91
+			text = "a19"
+		intervals [17]:
+			xmin = 1.91
+			xmax = 2.17
+			text = "a39"
+		intervals [18]:
+			xmin = 2.17
+			xmax = 2.38
+			text = "a0"
+		intervals [19]:
+			xmin = 2.38
+			xmax = 2.55
+			text = "a16"
+		intervals [20]:
+			xmin = 2.55
+			xmax = 2.66
+			text = "a38"
+		intervals [21]:
+			xmin = 2.66
+			xmax = 2.76
+			text = "a39"
+		intervals [22]:
+			xmin = 2.76
+			xmax = 2.95
+			text = "a38"
+	item[4]:
+		class = "IntervalTier"
+		name = "discovered.words"
+		xmin = 0
+		xmax = 2.95
+		intervals: size = 3
+		intervals [1]:
+			xmin = 0.0
+			xmax = 1.55
+			text = "a34a17a16a16a8a25a47a19a47a3a40a13a3"
+		intervals [2]:
+			xmin = 1.55
+			xmax = 2.17
+			text = "a40a42a19a39"
+		intervals [3]:
+			xmin = 2.17
+			xmax = 2.95
+			text = "a0a16a38a39a38"

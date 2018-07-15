@@ -1,0 +1,236 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.52
+tiers? <exists>
+size = 4
+item[]:
+	item[1]:
+		class = "IntervalTier"
+		name = "true.phones"
+		xmin = 0
+		xmax = 1.52
+		intervals: size = 17
+		intervals [1]:
+			xmin = 0.01
+			xmax = 0.23
+			text = "__..k3__"
+		intervals [2]:
+			xmin = 0.23
+			xmax = 0.27
+			text = ".kj1"
+		intervals [3]:
+			xmin = 0.27
+			xmax = 0.32
+			text = "kjê0"
+		intervals [4]:
+			xmin = 0.32
+			xmax = 0.36
+			text = "jêm0"
+		intervals [5]:
+			xmin = 0.36
+			xmax = 0.43
+			text = "êmA0"
+		intervals [6]:
+			xmin = 0.43
+			xmax = 0.47
+			text = "mAb2"
+		intervals [7]:
+			xmin = 0.47
+			xmax = 0.54
+			text = "Abô1"
+		intervals [8]:
+			xmin = 0.54
+			xmax = 0.61
+			text = "bôl2"
+		intervals [9]:
+			xmin = 0.61
+			xmax = 0.66
+			text = "ôlà1"
+		intervals [10]:
+			xmin = 0.66
+			xmax = 0.77
+			text = "làB0"
+		intervals [11]:
+			xmin = 0.77
+			xmax = 0.88
+			text = "àBæ0"
+		intervals [12]:
+			xmin = 0.88
+			xmax = 0.95
+			text = "Bæs0"
+		intervals [13]:
+			xmin = 0.95
+			xmax = 1.06
+			text = "æsÂ2"
+		intervals [14]:
+			xmin = 1.06
+			xmax = 1.16
+			text = "sÂk3"
+		intervals [15]:
+			xmin = 1.16
+			xmax = 1.29
+			text = "ÂkO1"
+		intervals [16]:
+			xmin = 1.29
+			xmax = 1.37
+			text = "kOÎ0"
+		intervals [17]:
+			xmin = 1.37
+			xmax = 1.52
+			text = "OÎ.2"
+	item[2]:
+		class = "IntervalTier"
+		name = "true.words"
+		xmin = 0
+		xmax = 1.52
+		intervals: size = 6
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.23
+			text = "__SIL__"
+		intervals [2]:
+			xmin = 0.23
+			xmax = 0.47
+			text = "KyÃ©ma"
+		intervals [3]:
+			xmin = 0.47
+			xmax = 0.61
+			text = "bÃ³"
+		intervals [4]:
+			xmin = 0.61
+			xmax = 1.06
+			text = "lÃ¡abveesÃ¡"
+		intervals [5]:
+			xmin = 1.06
+			xmax = 1.16
+			text = "a"
+		intervals [6]:
+			xmin = 1.16
+			xmax = 1.52
+			text = "kÏ‰Ã­"
+	item[3]:
+		class = "IntervalTier"
+		name = "pseudo.phones"
+		xmin = 0
+		xmax = 2.29
+		intervals: size = 23
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.09
+			text = "a34"
+		intervals [2]:
+			xmin = 0.09
+			xmax = 0.17
+			text = "a17"
+		intervals [3]:
+			xmin = 0.17
+			xmax = 0.28
+			text = "a21"
+		intervals [4]:
+			xmin = 0.28
+			xmax = 0.34
+			text = "a23"
+		intervals [5]:
+			xmin = 0.34
+			xmax = 0.42
+			text = "a29"
+		intervals [6]:
+			xmin = 0.42
+			xmax = 0.45
+			text = "a5"
+		intervals [7]:
+			xmin = 0.45
+			xmax = 0.53
+			text = "a42"
+		intervals [8]:
+			xmin = 0.53
+			xmax = 0.61
+			text = "a33"
+		intervals [9]:
+			xmin = 0.61
+			xmax = 0.66
+			text = "a13"
+		intervals [10]:
+			xmin = 0.66
+			xmax = 0.76
+			text = "a5"
+		intervals [11]:
+			xmin = 0.76
+			xmax = 0.88
+			text = "a42"
+		intervals [12]:
+			xmin = 0.88
+			xmax = 0.95
+			text = "a23"
+		intervals [13]:
+			xmin = 0.95
+			xmax = 1.03
+			text = "a46"
+		intervals [14]:
+			xmin = 1.03
+			xmax = 1.18
+			text = "a5"
+		intervals [15]:
+			xmin = 1.18
+			xmax = 1.26
+			text = "a21"
+		intervals [16]:
+			xmin = 1.26
+			xmax = 1.39
+			text = "a33"
+		intervals [17]:
+			xmin = 1.39
+			xmax = 1.45
+			text = "a45"
+		intervals [18]:
+			xmin = 1.45
+			xmax = 1.53
+			text = "a25"
+		intervals [19]:
+			xmin = 1.53
+			xmax = 1.62
+			text = "a16"
+		intervals [20]:
+			xmin = 1.62
+			xmax = 1.69
+			text = "a38"
+		intervals [21]:
+			xmin = 1.69
+			xmax = 1.98
+			text = "a16"
+		intervals [22]:
+			xmin = 1.98
+			xmax = 2.16
+			text = "a16"
+		intervals [23]:
+			xmin = 2.16
+			xmax = 2.29
+			text = "a38"
+	item[4]:
+		class = "IntervalTier"
+		name = "discovered.words"
+		xmin = 0
+		xmax = 2.29
+		intervals: size = 5
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.28
+			text = "a34a17a21"
+		intervals [2]:
+			xmin = 0.28
+			xmax = 0.45
+			text = "a23a29a5"
+		intervals [3]:
+			xmin = 0.45
+			xmax = 0.61
+			text = "a42a33"
+		intervals [4]:
+			xmin = 0.61
+			xmax = 0.66
+			text = "a13"
+		intervals [5]:
+			xmin = 0.66
+			xmax = 2.29
+			text = "a5a42a23a46a5a21a33a45a25a16a38a16a16a38"

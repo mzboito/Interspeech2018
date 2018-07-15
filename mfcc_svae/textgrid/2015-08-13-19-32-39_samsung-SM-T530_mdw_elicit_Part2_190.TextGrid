@@ -1,0 +1,124 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 2.04
+tiers? <exists>
+size = 4
+item[]:
+	item[1]:
+		class = "IntervalTier"
+		name = "true.phones"
+		xmin = 0
+		xmax = 2.04
+		intervals: size = 18
+		intervals [1]:
+			xmin = 0.01
+			xmax = 0.25
+			text = "__..w3__"
+		intervals [2]:
+			xmin = 0.25
+			xmax = 0.36
+			text = ".wA3"
+		intervals [3]:
+			xmin = 0.36
+			xmax = 0.46
+			text = "wAb1"
+		intervals [4]:
+			xmin = 0.46
+			xmax = 0.56
+			text = "Abè0"
+		intervals [5]:
+			xmin = 0.56
+			xmax = 0.7
+			text = "bèW2"
+		intervals [6]:
+			xmin = 0.7
+			xmax = 0.85
+			text = "èWÂ1"
+		intervals [7]:
+			xmin = 0.85
+			xmax = 0.9
+			text = "WÂn0"
+		intervals [8]:
+			xmin = 0.9
+			xmax = 1.0
+			text = "Ânw2"
+		intervals [9]:
+			xmin = 1.0
+			xmax = 1.1
+			text = "nwA1"
+		intervals [10]:
+			xmin = 1.1
+			xmax = 1.17
+			text = "wAm2"
+		intervals [11]:
+			xmin = 1.17
+			xmax = 1.26
+			text = "Amô1"
+		intervals [12]:
+			xmin = 1.26
+			xmax = 1.33
+			text = "môm2"
+		intervals [13]:
+			xmin = 1.33
+			xmax = 1.45
+			text = "ômA1"
+		intervals [14]:
+			xmin = 1.45
+			xmax = 1.57
+			text = "mAr0"
+		intervals [15]:
+			xmin = 1.57
+			xmax = 1.6
+			text = "Ars0"
+		intervals [16]:
+			xmin = 1.6
+			xmax = 1.8
+			text = "rse0"
+		intervals [17]:
+			xmin = 1.8
+			xmax = 2.01
+			text = "sel0"
+		intervals [18]:
+			xmin = 2.01
+			xmax = 2.04
+			text = "el.2"
+	item[2]:
+		class = "IntervalTier"
+		name = "true.words"
+		xmin = 0
+		xmax = 2.04
+		intervals: size = 7
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.25
+			text = "__SIL__"
+		intervals [2]:
+			xmin = 0.25
+			xmax = 0.36
+			text = "Wa"
+		intervals [3]:
+			xmin = 0.36
+			xmax = 0.7
+			text = "Ã¡bÃ©e"
+		intervals [4]:
+			xmin = 0.7
+			xmax = 1.0
+			text = "mwÃ¡na"
+		intervals [5]:
+			xmin = 1.0
+			xmax = 1.17
+			text = "ya"
+		intervals [6]:
+			xmin = 1.17
+			xmax = 1.33
+			text = "mÃ³"
+		intervals [7]:
+			xmin = 1.33
+			xmax = 2.04
+			text = "Marcel"
+	item[3]:
+		class = "IntervalTier"
+		name = "pseudo.phones"
+		xmin = 0

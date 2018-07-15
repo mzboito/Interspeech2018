@@ -1,0 +1,236 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.72
+tiers? <exists>
+size = 4
+item[]:
+	item[1]:
+		class = "IntervalTier"
+		name = "true.phones"
+		xmin = 0
+		xmax = 1.72
+		intervals: size = 20
+		intervals [1]:
+			xmin = 0.01
+			xmax = 0.28
+			text = "__..o3__"
+		intervals [2]:
+			xmin = 0.28
+			xmax = 0.39
+			text = ".oN1"
+		intervals [3]:
+			xmin = 0.39
+			xmax = 0.47
+			text = "oNo0"
+		intervals [4]:
+			xmin = 0.47
+			xmax = 0.53
+			text = "NoG0"
+		intervals [5]:
+			xmin = 0.53
+			xmax = 0.58
+			text = "oGo0"
+		intervals [6]:
+			xmin = 0.58
+			xmax = 0.62
+			text = "Gol2"
+		intervals [7]:
+			xmin = 0.62
+			xmax = 0.67
+			text = "ol‡1"
+		intervals [8]:
+			xmin = 0.67
+			xmax = 0.76
+			text = "l‡s0"
+		intervals [9]:
+			xmin = 0.76
+			xmax = 0.87
+			text = "‡sÍ0"
+		intervals [10]:
+			xmin = 0.87
+			xmax = 0.92
+			text = "sÍﬂ0"
+		intervals [11]:
+			xmin = 0.92
+			xmax = 0.96
+			text = "ÍﬂÙ2"
+		intervals [12]:
+			xmin = 0.96
+			xmax = 1.07
+			text = "ﬂÙl1"
+		intervals [13]:
+			xmin = 1.07
+			xmax = 1.13
+			text = "Ùl 0"
+		intervals [14]:
+			xmin = 1.13
+			xmax = 1.2
+			text = "l G0"
+		intervals [15]:
+			xmin = 1.2
+			xmax = 1.24
+			text = " G 0"
+		intervals [16]:
+			xmin = 1.24
+			xmax = 1.29
+			text = "G s2"
+		intervals [17]:
+			xmin = 1.29
+			xmax = 1.4
+			text = " s¬1"
+		intervals [18]:
+			xmin = 1.4
+			xmax = 1.49
+			text = "s¬k2"
+		intervals [19]:
+			xmin = 1.49
+			xmax = 1.56
+			text = "¬k‘1"
+		intervals [20]:
+			xmin = 1.56
+			xmax = 1.72
+			text = "k‘.2"
+	item[2]:
+		class = "IntervalTier"
+		name = "true.words"
+		xmin = 0
+		xmax = 1.72
+		intervals: size = 6
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.28
+			text = "__SIL__"
+		intervals [2]:
+			xmin = 0.28
+			xmax = 0.62
+			text = "Ondongo"
+		intervals [3]:
+			xmin = 0.62
+			xmax = 0.96
+			text = "l√°as√©bh√°"
+		intervals [4]:
+			xmin = 0.96
+			xmax = 1.29
+			text = "olŒ≠ngŒ≠"
+		intervals [5]:
+			xmin = 1.29
+			xmax = 1.49
+			text = "s√°"
+		intervals [6]:
+			xmin = 1.49
+			xmax = 1.72
+			text = "kœé"
+	item[3]:
+		class = "IntervalTier"
+		name = "pseudo.phones"
+		xmin = 0
+		xmax = 2.27
+		intervals: size = 20
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.08
+			text = "a34"
+		intervals [2]:
+			xmin = 0.08
+			xmax = 0.26
+			text = "a17"
+		intervals [3]:
+			xmin = 0.26
+			xmax = 0.38
+			text = "a44"
+		intervals [4]:
+			xmin = 0.38
+			xmax = 0.45
+			text = "a30"
+		intervals [5]:
+			xmin = 0.45
+			xmax = 0.56
+			text = "a40"
+		intervals [6]:
+			xmin = 0.56
+			xmax = 0.61
+			text = "a44"
+		intervals [7]:
+			xmin = 0.61
+			xmax = 0.66
+			text = "a13"
+		intervals [8]:
+			xmin = 0.66
+			xmax = 0.86
+			text = "a14"
+		intervals [9]:
+			xmin = 0.86
+			xmax = 0.9
+			text = "a23"
+		intervals [10]:
+			xmin = 0.9
+			xmax = 0.94
+			text = "a13"
+		intervals [11]:
+			xmin = 0.94
+			xmax = 0.99
+			text = "a32"
+		intervals [12]:
+			xmin = 0.99
+			xmax = 1.06
+			text = "a33"
+		intervals [13]:
+			xmin = 1.06
+			xmax = 1.13
+			text = "a13"
+		intervals [14]:
+			xmin = 1.13
+			xmax = 1.25
+			text = "a47"
+		intervals [15]:
+			xmin = 1.25
+			xmax = 1.37
+			text = "a47"
+		intervals [16]:
+			xmin = 1.37
+			xmax = 1.51
+			text = "a3"
+		intervals [17]:
+			xmin = 1.51
+			xmax = 1.78
+			text = "a15"
+		intervals [18]:
+			xmin = 1.78
+			xmax = 1.89
+			text = "a39"
+		intervals [19]:
+			xmin = 1.89
+			xmax = 2.16
+			text = "a0"
+		intervals [20]:
+			xmin = 2.16
+			xmax = 2.27
+			text = "a38"
+	item[4]:
+		class = "IntervalTier"
+		name = "discovered.words"
+		xmin = 0
+		xmax = 2.27
+		intervals: size = 5
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.66
+			text = "a34a17a44a30a40a44a13"
+		intervals [2]:
+			xmin = 0.66
+			xmax = 1.13
+			text = "a14a23a13a32a33a13"
+		intervals [3]:
+			xmin = 1.13
+			xmax = 1.37
+			text = "a47a47"
+		intervals [4]:
+			xmin = 1.37
+			xmax = 1.89
+			text = "a3a15a39"
+		intervals [5]:
+			xmin = 1.89
+			xmax = 2.27
+			text = "a0a38"

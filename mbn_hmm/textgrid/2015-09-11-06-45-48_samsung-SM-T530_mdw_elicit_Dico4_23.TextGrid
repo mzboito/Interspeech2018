@@ -1,0 +1,236 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.34
+tiers? <exists>
+size = 4
+item[]:
+	item[1]:
+		class = "IntervalTier"
+		name = "true.phones"
+		xmin = 0
+		xmax = 1.34
+		intervals: size = 16
+		intervals [1]:
+			xmin = 0.01
+			xmax = 0.15
+			text = "__..W3__"
+		intervals [2]:
+			xmin = 0.15
+			xmax = 0.32
+			text = ".WÂ1"
+		intervals [3]:
+			xmin = 0.32
+			xmax = 0.35
+			text = "WÂs0"
+		intervals [4]:
+			xmin = 0.35
+			xmax = 0.48
+			text = "Âs!2"
+		intervals [5]:
+			xmin = 0.48
+			xmax = 0.51
+			text = "s!!1"
+		intervals [6]:
+			xmin = 0.51
+			xmax = 0.54
+			text = "!!Â2"
+		intervals [7]:
+			xmin = 0.54
+			xmax = 0.64
+			text = "!Âm1"
+		intervals [8]:
+			xmin = 0.64
+			xmax = 0.71
+			text = "ÂmI0"
+		intervals [9]:
+			xmin = 0.71
+			xmax = 0.74
+			text = "mIk0"
+		intervals [10]:
+			xmin = 0.74
+			xmax = 0.87
+			text = "Ikô0"
+		intervals [11]:
+			xmin = 0.87
+			xmax = 0.95
+			text = "kôÂ0"
+		intervals [12]:
+			xmin = 0.95
+			xmax = 0.98
+			text = "ôÂD2"
+		intervals [13]:
+			xmin = 0.98
+			xmax = 1.08
+			text = "ÂDê1"
+		intervals [14]:
+			xmin = 1.08
+			xmax = 1.17
+			text = "Dêm0"
+		intervals [15]:
+			xmin = 1.17
+			xmax = 1.2
+			text = "êmI0"
+		intervals [16]:
+			xmin = 1.2
+			xmax = 1.34
+			text = "mI.2"
+	item[2]:
+		class = "IntervalTier"
+		name = "true.words"
+		xmin = 0
+		xmax = 1.34
+		intervals: size = 5
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.15
+			text = "__SIL__"
+		intervals [2]:
+			xmin = 0.15
+			xmax = 0.48
+			text = "MwÃ¡sÃ­"
+		intervals [3]:
+			xmin = 0.48
+			xmax = 0.54
+			text = "<UNK>"
+		intervals [4]:
+			xmin = 0.54
+			xmax = 0.98
+			text = "Ã¡mikÃ³Ã¡"
+		intervals [5]:
+			xmin = 0.98
+			xmax = 1.34
+			text = "dzÃ©mi"
+	item[3]:
+		class = "IntervalTier"
+		name = "pseudo.phones"
+		xmin = 0
+		xmax = 1.89
+		intervals: size = 27
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.08
+			text = "a1"
+		intervals [2]:
+			xmin = 0.08
+			xmax = 0.12
+			text = "a20"
+		intervals [3]:
+			xmin = 0.12
+			xmax = 0.2
+			text = "a18"
+		intervals [4]:
+			xmin = 0.2
+			xmax = 0.24
+			text = "a43"
+		intervals [5]:
+			xmin = 0.24
+			xmax = 0.29
+			text = "a34"
+		intervals [6]:
+			xmin = 0.29
+			xmax = 0.34
+			text = "a47"
+		intervals [7]:
+			xmin = 0.34
+			xmax = 0.39
+			text = "a28"
+		intervals [8]:
+			xmin = 0.39
+			xmax = 0.45
+			text = "a32"
+		intervals [9]:
+			xmin = 0.45
+			xmax = 0.52
+			text = "a11"
+		intervals [10]:
+			xmin = 0.52
+			xmax = 0.55
+			text = "a35"
+		intervals [11]:
+			xmin = 0.55
+			xmax = 0.61
+			text = "a36"
+		intervals [12]:
+			xmin = 0.61
+			xmax = 0.64
+			text = "a28"
+		intervals [13]:
+			xmin = 0.64
+			xmax = 0.73
+			text = "a43"
+		intervals [14]:
+			xmin = 0.73
+			xmax = 0.77
+			text = "a46"
+		intervals [15]:
+			xmin = 0.77
+			xmax = 0.87
+			text = "a34"
+		intervals [16]:
+			xmin = 0.87
+			xmax = 0.97
+			text = "a47"
+		intervals [17]:
+			xmin = 0.97
+			xmax = 1.02
+			text = "a14"
+		intervals [18]:
+			xmin = 1.02
+			xmax = 1.06
+			text = "a17"
+		intervals [19]:
+			xmin = 1.06
+			xmax = 1.16
+			text = "a25"
+		intervals [20]:
+			xmin = 1.16
+			xmax = 1.32
+			text = "a12"
+		intervals [21]:
+			xmin = 1.32
+			xmax = 1.43
+			text = "a26"
+		intervals [22]:
+			xmin = 1.43
+			xmax = 1.51
+			text = "a3"
+		intervals [23]:
+			xmin = 1.51
+			xmax = 1.6
+			text = "a26"
+		intervals [24]:
+			xmin = 1.6
+			xmax = 1.66
+			text = "a40"
+		intervals [25]:
+			xmin = 1.66
+			xmax = 1.74
+			text = "a10"
+		intervals [26]:
+			xmin = 1.74
+			xmax = 1.81
+			text = "a38"
+		intervals [27]:
+			xmin = 1.81
+			xmax = 1.89
+			text = "a8"
+	item[4]:
+		class = "IntervalTier"
+		name = "discovered.words"
+		xmin = 0
+		xmax = 1.89
+		intervals: size = 3
+		intervals [1]:
+			xmin = 0.0
+			xmax = 1.06
+			text = "a1a20a18a43a34a47a28a32a11a35a36a28a43a46a34a47a14a17"
+		intervals [2]:
+			xmin = 1.06
+			xmax = 1.16
+			text = "a25"
+		intervals [3]:
+			xmin = 1.16
+			xmax = 1.89
+			text = "a12a26a3a26a40a10a38a8"
