@@ -1,6 +1,6 @@
 # Interspeech2018
 
-Files used for training of the models presented on Interspeech 2018 paper "Unsupervised Word Segmentation from Speech with Attention".
+Files used for training of the models presented on Interspeech 2018 paper *Unsupervised Word Segmentation from Speech with Attention*.
 
 Reference:
 @article{godard2018unsupervised,
